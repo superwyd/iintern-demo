@@ -1,0 +1,502 @@
+html,
+body { height: 100% }
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: 1.4rem 0;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: #37495B;
+    margin: 2rem 0 0 0;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.navbar {
+    background-color: #fff;
+}
+
+#banner {
+    min-height: 250px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    -moz-box-shadow:  0 2px 5px 0 #333;
+    -webkit-box-shadow: 0 2px 5px 0 #333;
+    box-shadow: 0 2px 5px 0 #333;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+}
+
+#banner-video { 
+    position: absolute;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+#intro {
+    position: relative;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding: 6rem 18rem;
+}
+
+#intro-video {
+    position: relative;
+    z-index: 100;
+    margin-top: 10rem;
+}
+
+#service {
+    margin: auto;
+    text-align: center;
+    padding: 0 6rem;
+}
+
+.devide-line {
+    width: 50%;
+}
+
+.service-img {
+    height: 4rem;
+    width: auto;
+}
+
+.service-detail {
+    color: #898989;
+    font-size: 1rem;
+}
+
+.jump-service {
+    color: #DD6B6B;
+    font-size: 1rem;
+    padding: 3rem;
+}
+
+#choice {
+    margin: auto;
+    text-align: center;
+    padding: 6rem;
+}
+
+#choice-graphic {
+    padding: 3rem 0;
+}
+
+#feedback {
+    margin: auto;
+    padding: 6rem 0 0 0;
+}
+
+.center-container {
+    text-align: center;
+}
+
+.feedback-container {
+    padding: 0;
+    margin: 0;
+}
+.student {
+    background-color: #37495B;
+    padding: 6rem;
+}
+.feedback-person {
+    padding: 2rem 0;
+}
+.feedback-detail {
+    color: rgba(255, 255, 255, 60);
+}
+
+.feedback-profile {
+    display: inline;
+}
+
+.feedback-name {
+    display: inline;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+#feedback-title1 {
+    color: white;
+}
+
+.school {
+    padding: 6rem;
+}
+
+#feedback-title2 {
+    color: #000;
+    display: inline;
+    padding: 0 4rem 0 0;
+}
+
+.footer {
+    text-align: center;
+    margin: auto;
+    background-color: #EDF0F3;
+    padding: 6rem 0 2rem 0;
+}
+
+.footer-socialmedia {
+    display: inline;
+}
+
+.social-icon {
+    margin: 3rem 1rem;
+    width: 1.6%;
+    height: auto;
+}
+
+.footer-note {
+    color: #37495B;
+    font-size: 0.8rem;
+}
+
+#banner-sub1 { 
+  font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+  font-weight:300; 
+  color: white;
+  padding: 2rem;
+  width: 33%;
+  margin:14rem 4rem;
+  float: left;
+  font-size: 1.2rem;
+}
+
+#banner-sub1 button { 
+  display: block;
+  width: 30%;
+  padding: 0.4rem 1rem;
+  border: solid white 0.1rem;
+  margin: 2rem 0; 
+  font-size: 1rem;
+  background: transparent;
+  color: #fff;
+  border-radius: 3px; 
+  cursor: pointer;
+  transition: .3s background;
+}
+
+#banner-sub1 button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+/* ---------- company --------------- */
+.header {
+    margin-top: 4rem;
+    padding: 4rem 4rem 2rem 4rem;
+}
+
+.header-title {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.company-why {
+    padding: 0 0 2rem 4rem;
+    font-size: 2.4rem;
+    color: #000;
+    font-weight: 700;
+}
+
+.company-whydsp {
+    width: 80%;
+}
+
+
+.company-whytitle {
+    padding: 4rem 0.8rem 1rem 0.8rem;
+    color: #DD6B6B;
+    font-size: 1rem;
+}
+
+.company-whydetail {
+    color:#707B85;
+    font-size: 0.8rem;
+    padding: 0 0.8rem;
+}
+
+#company-detail {
+    text-align: center;
+}
+
+#company-feedback {
+    background-color: #37495B;
+    margin-top: 4rem;
+}
+
+#company-title1 {
+    color: #DD6B6B;
+    font-size: 2rem;
+    padding-bottom: 0.8rem;
+}
+
+#company-title2 {
+    color: #707B85;
+    font-family: "Avenir Next";
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.hr-profile {
+    width: 80%;
+    height: 80%;
+    padding: 2rem;
+}
+
+.hr-name, .hr-title, .hr-feedback {
+    color: #fff;
+}
+
+.fb-title {
+    padding: 10rem 0;
+}
+
+.fb-detail {
+    padding: 10rem 0;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 0;
+}
+
+#contact {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.company-btn {
+    background-color: #37495B;
+    margin: 5rem 0 5rem 0;
+    border-color: #37495B;
+}
+
+.company-btn:hover {
+    background-color: #fff;
+    color: #37495B;
+    border-color: #37495B;
+    
+}
+
+/* -----------------NEWS---------------- */
+
+.news-container {
+    margin: auto;
+    width: 90%;
+}
+
+.news-profile {
+    width: 100%;
+    height: auto;
+}
+
+.news-title {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+.news-preview {
+    color: #898989;
+    padding-bottom: 4rem;    
+}
+
+.news-smtitle {
+    font-size: 1rem;
+    padding-bottom: 1rem;
+}
+
+.news-smpreview {
+    color: #898989;
+    font-size: 0.8rem;
+    padding-bottom: 2rem;
+}
+
+/* -----------------CONTACT---------------- */
+
+.contact-container {
+    width: 70%;
+    margin: auto;
+}
+
+#contact-locationtitle {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#location-container {
+    margin: auto;
+    width: 90%;
+    padding-top: 4rem;
+}
+
+#contact-join, #contact-mail {
+    text-align: center;
+    margin: auto;
+}
+
+.bold-title {
+    font-size: 2.4rem;
+    color: #000;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+
+.card-header {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.card-header:hover {
+    background-color: #fbfbfb;
+}
+
+.card-header:after {
+    content: '\002B';
+    color: #DD6B6B;
+    float: right;
+    margin-left: 5px;
+}
+
+.card-header.show:after {
+    content: '\2796';
+    color: #DD6B6B;
+    float: right;
+    margin-left: 5px;
+}
+
+#contact-position {
+    width: 60%;
+    margin: auto;
+}
+
+.card {
+    border: none;
+}
+
+.position-title-eng {
+    font-size: 1rem;
+    color: #DD6B6B;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.position-title-cn {
+    font-size: 2rem;
+    color: #37495B;
+    font-weight: 400;
+    padding-bottom: 0.8rem;
+    padding-top: 1.6rem;
+}
+
+.dsp-title {
+    color: #37495B;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    font-size: 1.6rem;
+}
+
+.dsp-detail {
+    color: #707B85;
+    font-size: 1rem;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 2rem;
+}
+
+/* ----------------INTERN--------------- */
+.intern-company {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.center-header {
+    font-size: 1.5rem;
+    padding: 6rem 0;
+}
+
+.intern-company-hire {
+    padding: 0 2rem 2rem 2rem;
+}
+
+#intern-guide, #intern-past {
+    margin: auto;
+    text-align: center;
+    width: 70%;
+}
+
+#intern-apply {
+    background-color: #37495B;
+}
+#apply-container {
+    width: 60%;
+    margin: auto;
+    padding: 10rem 0;
+}
+#apply-img {
+    padding-right: 0;
+    margin-right: 0;
+}
+#apply-form {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* .form-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+.form-control {
+    border: none;
+    border-bottom: 1px solid #000000;
+    box-shadow: none;
+    border-radius: 0;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+/*----------------------SERVICE-----------------------------*/
+#service-slogan {
+    font-size: 2.4rem;
+    color: #000;
+    font-weight: 700;   
+}
+
+#service-book, #service-background, #service-intern, #service-summer {
+    text-align: center;
+    margin: auto;
+    width: 70%; 
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
