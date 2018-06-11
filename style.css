@@ -212,8 +212,13 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 }
 
 .header-title {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
+}
+
+.header-sub {
+    font-size: 1rem;
+    width: 60%;
 }
 
 .company-why {
@@ -499,4 +504,9 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     width: 70%; 
     margin-top: 4rem;
     margin-bottom: 6rem;
+}
+
+.service-company-sub {
+    color: #898989;
+    font-weight: 600;
 }
