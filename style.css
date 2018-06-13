@@ -4,6 +4,67 @@ body {
     margin: 0;
 }
 
+.contact-all {
+	bottom: 30%;
+	right: 0;
+    position: fixed;
+    z-index: 9999;
+    background-color: #F9F9F9;
+}
+
+.contact-all-mini img {
+    display: none;
+    position: absolute;
+    left: -200px;
+    width: 200px;
+    height: 200px;
+}
+#phone-dely #delysia {
+    visibility: hidden;
+    width: 180px;
+    position: absolute;
+    z-index: 1;
+    right: 105%;
+    bottom: 30%;
+    background-color: #37495B;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 16px;
+
+}
+#phone-dely:hover #delysia {
+    visibility: visible;
+}
+.contact-all-mini {
+    display: block;
+    float: right;
+    clear: right;
+    border-bottom: 0.5px solid #9b9b9b;
+}
+
+.contact-mini-icon {
+    color: #707B85;
+    margin: 18px;    
+    font-size: 2rem;
+    height: auto;
+}
+
+.contact-mini-icon:hover {
+    color: #DD6B6B;
+}
+
+.contact-mini-icon:hover {
+    display: block;    
+}
+
+
+#contact-mini-weixin {
+    display: block;
+    border-radius: 0.8em;
+    max-width: 100%;
+    height: auto;
+}
+
 
 h1 {
     font-size: 1.5rem;
@@ -28,7 +89,9 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 .navbar {
     background-color: #fff;
 }
-
+.dropdown:hover .dropdown-menu{
+    display:block;
+  }
 #banner {
     min-height: 250px;
     padding-bottom: 50px;
@@ -220,11 +283,12 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 .header-sub {
     font-size: 1rem;
     width: 60%;
+    margin: 4rem auto;
 }
 
 .company-why {
     padding: 0 0 2rem 4rem;
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     color: #000;
     font-weight: 700;
 }
@@ -237,12 +301,12 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 .company-whytitle {
     padding: 4rem 0.8rem 1rem 0.8rem;
     color: #DD6B6B;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 .company-whydetail {
     color:#707B85;
-    font-size: 0.8rem;
+    font-size: 1rem;
     padding: 0 0.8rem;
 }
 
@@ -286,6 +350,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     padding: 10rem 0;
 }
 
+
 .carousel-control-next, .carousel-control-prev {
     width: 0;
 }
@@ -297,8 +362,9 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 .company-btn {
     background-color: #37495B;
-    margin: 5rem 0 5rem 0;
+    margin: 5rem 0;
     border-color: #37495B;
+    padding: 0.4rem 1.8rem;
 }
 
 .company-btn:hover {
@@ -373,6 +439,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 .contact-container {
     width: 70%;
     margin: auto;
+    text-align: center;
 }
 
 #contact-locationtitle {
@@ -392,7 +459,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 }
 
 .bold-title {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     color: #000;
     font-weight: 700;
     padding-bottom: 2rem;
@@ -531,5 +598,9 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 .service-company-sub {
     color: #898989;
-    font-weight: 600;
+    font-weight: 500;
+}
+
+.service-company-detail {
+    padding: 0.1rem 2rem;
 }

@@ -1,6 +1,15 @@
 var vid = document.getElementById("bgvid");
 var pauseButton = document.querySelector("#polina button");
 
+$('ul.navbar-nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});
+
+
+
+
 // ------------scroll smooth
 $(document).ready(function(){
   // Add smooth scrolling to all links
@@ -25,6 +34,21 @@ $(document).ready(function(){
       });
     } // End if
   });
+
+  $(".contact-all-mini").mouseover(function () {
+    $(".contact-all-mini img").css("display", "none"); // hide all product images
+    $(this).find("img").css("display", "inline-block"); // show current hover image
+  });
+  $(".contact-all-mini").mouseout(function () {
+    $(".contact-all-mini img").css("display", "none"); // hide all product images
+  });
+
+  $('#backtop').click(function() {
+    $("html, body").animate({
+      scrollTop: 0
+    }, 500);
+  });
+
 });
 
 
