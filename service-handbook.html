@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+            <title>I-internCareer | 产品服务</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>        
+            
+            
+            <script src="./node_modules/countUp.js/countUp.js"></script>        
+            <script src="js/main.js"></script>
+            <link href="style.css" rel="stylesheet">
+            <link href="css/responsive.css" rel="stylesheet">
+
+        <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="./image/logo.png" width="120" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-md-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html">首页</a>
+                </li>
+                <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="./service.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      产品服务
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">产品服务手册</a>
+                      <a class="dropdown-item" href="./service.html#service-background">职前背景提升</a>
+                      <a class="dropdown-item" href="./service.html#service-intern">名企实习直推</a>
+                      <a class="dropdown-item" href="./service.html#service-summer">暑期游学实习</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./news.html">实习资讯</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./intern.html">定制实习</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./company.html">企业入口</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./case.html">学员故事</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contact.html">联系我们</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <div class="contact-all">
+                <div class="contact-all-mini">
+                  <img src="./image/teng.png"/>
+                  <i class="fab fa-weixin contact-mini-icon"></i>
+                </div>            
+                <div class="contact-all-mini" id="phone-dely">
+                  <i class="fas fa-phone contact-mini-icon"></i>
+                  <span id="delysia">咨询电话：<br>+1 (617) 319-7132</span>
+                </div>
+                <div class="contact-all-mini" id="backtop"><i class="fas fa-arrow-up contact-mini-icon"></i></div>            
+              </div>
+              <br><br><br><br>
+              <div id="service-container">
+                <div class="row">
+                    <div class="col-sm-2 nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                        <a class="nav-link active" id="product-label-1" data-toggle="pill" href="#product-1" role="tab" aria-controls="v-pills-home" aria-selected="true">关于留学</a>
+                        <a class="nav-link" id="product-label-2" data-toggle="pill" href="#product-2" role="tab" aria-controls="v-pills-profile" aria-selected="false">关于求职</a>
+                        <a class="nav-link" id="product-label-3" data-toggle="pill" href="#product-3" role="tab" aria-controls="v-pills-messages" aria-selected="false">关于我们</a>
+                        <a class="nav-link" id="product-label-4" data-toggle="pill" href="#product-4" role="tab" aria-controls="v-pills-settings" aria-selected="false">资源服务</a>
+                        <a class="nav-link" id="product-label-5" data-toggle="pill" href="#product-5" role="tab" aria-controls="v-pills-settings" aria-selected="false">职前提升明星计划</a>
+                        <a class="nav-link" id="product-label-6" data-toggle="pill" href="#product-6" role="tab" aria-controls="v-pills-settings" aria-selected="false">世界名企实习直推</a>
+                        <a class="nav-link" id="product-label-7" data-toggle="pill" href="#product-7" role="tab" aria-controls="v-pills-settings" aria-selected="false">实战游学精英项目</a>
+                        
+                    </div>
+                    <div class="col-sm-10 tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="product-1" role="tabpanel" aria-labelledby="product-label-1">
+                            <img width="100%" height="auto" src="./image/handbook-1.png" alt="intern-handbook-1">                                                            
+                           
+                            <h2 class="handbook-subheader">留美概况</h2>
+                            <p class="handbook-content">
+                                2017年的市场调查和研究表明，留学美国的华人学生中，有近14.3万名中国本科生，较上一年增长5.3%，有近13万在美研究生，较上一年增长4.1%。其中申请OPT（Optional Practical Training），也就是选择实习的学生总数分别是本科2万人和研究生6万人，较上一年分别增长13%和14.6%。
+                                <br><br>    
+                                眼看着毕业后想获得美国工作经验的留学生越来越多，尽管不少大学近几年统计的毕业就业率越来越高，但其中国际生比例却持续走低，一方面是一些不利于国际生留美工作的政策，另一方面是随着留学生规模越来越大，其整体水分也越来越大。
+                            </p>
+                            <h2 class="handbook-subheader">学生现状</h2>
+                            <p class="handbook-content">
+                                根据我们对美国各地华人留学生关于就业问题的抽样调查，大部分学生考虑过找工作，却多数停留在想法上，对于那些迈出第一步，准备了求职简历的学生来说，也只有近一半的学生知道润色、修改简历的必要性，在这其中，能够投出简历、收到公司的面试通知、通过几轮面试、拿到Offer的学生更是少之又少。
+                                <br><br>
+                                外界新闻看似总能报导各路大神斩获大牛公司的Offer，然而更多的学生简历投出去便是石沉大海，申请了百余职位，却着实鲜有回复。是简历出了问题吗？是，却也不全是，关键还在于简历涵盖的内容和其中的质量。
+                            </p>
+                        </div>
+                        <div class="tab-pane fade" id="product-2" role="tabpanel" aria-labelledby="product-label-2">
+                            <img width="100%" height="auto" src="./image/handbook-2.png" alt="intern-handbook-2">                                                            
+                            
+                             <h2 class="handbook-subheader">简历揭秘</h2>
+                             <p class="handbook-content">
+                                    多名中美知名企业的资深人力资源总监曾透露，每天面对海量学生简历，
+                                    其实筛选的方式也很简单：
+                                    <br><br>
+                                    一方面是看所在的学校是不是公司的目标学校，该学生是否具备所申请职位应该有的技能，另一方面则是看实习经历。技能列表可以造假，参与过的活动可以夸大，然而过往实习是不会骗人的，在什么样的公司实习，工作内容是否有含金量……一看就知道这位申请者的真实水平。
+                             </p>
+                             <h2 class="handbook-subheader">实习模式</h2>
+                             <p class="handbook-content">
+                                    如今的实习模式主要有两种，校园实习和毕业后（试用期）实习，其中校园实习又包含需要每天去公司完成的实地实习和在家、在学校期间就能完成的线上实习。
+                                    <br><br>
+                                    对于还在读大二、大三，或者想挑战自我的大一学生来说，时间还算比较充裕，通常可以在寒暑假选择各类公司的实地实习，工作之余还可以去到不同的城市，丰富自己的人生体验。
+                                    <br><br>
+                                    对于大四、临近毕业的学生来说，在紧凑而宝贵的时间里提升个人实力的最有效途径便是选择课余时间可以完成的线上实习，既不会错过该完成的课业，又成功给自己的简历“镀金”，提高了求职竞争力。
+                                    
+                             </p>                            
+                        </div>
+                        <div class="tab-pane fade" id="product-3" role="tabpanel" aria-labelledby="product-label-3">
+                            <img width="100%" height="auto" src="./image/handbook-3.png" alt="intern-handbook-3">
+                            <h2 class="handbook-subheader">关于I-intern</h2>
+                            <p class="handbook-content">
+                                I-intern是一家专注为北美留学生提供实习机会和背景提升的平台，地址在美国硅谷。公司运行至今，已经与许多知名企业及组织机构建立了合作伙伴关系，其中来自中国大陆，香港，台北，北美的部分公司及其分公司展示了对I-intern的认可和支持，愿意在长期共同发展的基础上与我们共建学员的未来，提供实习及就业的机会，同时各方顾问也会通过不同行业及人脉建立信息网络和资源平台为学员未来发展助力。
+                                <br><br>    
+                                本着了解学生痛点，并提供最有价值服务，帮助学生走好职业发展第一步的初衷，目前I-intern已开设200多个实习培养项目，行业领域包罗万象，面对不同专业不同需求的学生，提供为期1-3个月，内容丰富，锻炼效果显著的实习项目。
+                            </p>
+                            <h2 class="handbook-subheader">我们的团队</h2>
+                            <p class="handbook-content">
+                                I-intern坐镇导师和创始人均为各行各业职场精英，覆盖全美高校。我们深知求职路上的艰难，更明白实习之于长远事业规划的重大意义。
+                                <br><br>
+                                看着每一个身陷求职困境的学生就像看着曾经的我们，我们会以最大的努力让你们不再迷茫、少走弯路。
+                            </p> 
+                        </div>
+                        <div class="tab-pane fade" id="product-4" role="tabpanel" aria-labelledby="product-label-4">
+                                <img width="100%" height="auto" src="./image/handbook-4.png" alt="intern-handbook-4">
+                                <h2 class="handbook-subheader">我们的资源</h2>
+                                <p class="handbook-content">
+                                    I-intern是跨国金融集团旗下孵化的平台，拥有超过200家合作公司，并不断吸纳优秀公司资源。
+                                    <br><br>
+                                    企业和公司横跨金融，科技，教育，服务，基金，市场营销，平面设计，传媒，互联网等热门专业，公司类型囊括全球五百强和国内外杰出企业，创业公司。  
+                                </p>
+                                <h2 class="handbook-subheader">我们的服务</h2>
+                                <p class="handbook-content">
+                                    I-intern从需求出发，打造从在校到毕业的全方面一站式服务，具体服务内容包括——
+                                        <br><br>
+                                    简历制作与润色、Cover Letter修改、LinkedIn领英个人页面设计、面试培训、模拟面试、商科培训、CS编程培训、顶级企业实习直推、远程或实地实习内推保录取、实习证明、推荐信、线上一对一培训辅导等优质全面的服务。
+                                        <br><br>
+                                    我们已经累计帮助上千名学生完成职业咨询、实习推送，助他们实现个人目标和求学理想。
+                                </p> 
+                        </div>
+                        <div class="tab-pane fade" id="product-5" role="tabpanel" aria-labelledby="product-label-5">
+                                <img width="100%" height="auto" src="./image/handbook-5.png" alt="intern-handbook-5">
+                                <p class="handbook-content">
+                                        高中毕业，大一大二，没有一份拿得出手的简历？
+                                        <br><br>
+                                        即将或已经毕业，却不知道什么样的格式看起来专业？
+                                        <br><br>
+                                        经历优势不知道如何描述和突出？
+                                        <br><br>
+                                        更难以捉摸华尔街的CEO们喜欢什么样的表达方式？
+                                        <br><br>
+                                        I-intern联手硅谷，华尔街，洛城多名行业经验十数年的HR精英，亲手教你如何完美包装自我，用最真实的方式，展现出最精致的你！
+                                        <br><br>
+                                        文字是平面的，可一份精彩的简历会说话！
+                                        <br><br>
+                                        面试是千篇一律的，可一次胸有成竹的面试，效果是乘风破浪的！
+                                        <br><br>
+                                        无论你是需要润色自己打磨的简历，以达到最专业和出彩的程度，还是希望由我们为你私人订制一份美妙绝伦的专业求职信，并教你如何与面试官谈笑风生，完美表现，I-intern北美实习平台整装待发，等你来约！
+                                        <br><br>
+                                        简历润色，简历制作，求职信修改，LinkedIn主页设计，模拟面试，一站式求职培训服务，只为野心家！
+                                </p><br>
+                                <h2 class="handbook-subheader">职前提升案例分析</h2><br><br>
+                                <span>L同学背景：</span><p class="handbook-content">UCI本科，主修经济，辅修金融，GPA 2.7/4.0
+                                        在GPA不到3.0，读研和直接就业都竞争力不足的情况下，孙同学找到了I-intern团队。来自华尔街的金融精英导师帮他制作出了专业的简历，又为他私人定制了VIP内推保录取项目，让他三天内收到了面试通知。</p>
+                                <img width="60%" height="auto" src="./image/handbook-s1-detail.png" alt="service 1 detail">
+                        </div>
+                        <div class="tab-pane fade" id="product-6" role="tabpanel" aria-labelledby="product-label-6">
+                                <img width="100%" height="auto" src="./image/handbook-6.png" alt="intern-handbook-6">
+                                <p class="handbook-content">
+                                        去了一次又一次的校园招聘career fair徒劳无功？
+                                        <br><br>
+                                        暑期大好时光不知道如何利用？
+                                        <br><br>
+                                        快要毕业了可是个人工作经验空空如也？
+                                        <br><br>
+                                        简历没东西可写，对于真实的行业和向往的公司一无所知？
+                                        <br><br>
+                                        找不到工作，陷入无经验无即战力无人脉的三无旋涡？
+                                        <br><br>
+                                        同学，你需要的，不仅仅是课本扁平化的知识，而是一次实习实战的机会，实现自我，背景提升，拓展人脉！
+                                        <br><br>
+                                        I-intern联手美国，新加坡，中国香港，大陆数百家知名企业，打造集合金融，市场，投资，基金，咨询，地产，传媒，科技，CS，平面设计多方专业的实习保录取项目！免去冗长的海投简历和苦苦等待的过程，接触创业公司，全球五百强应有尽有，在实习中发现自我，完成简历镀金和能力提升，并获得实习证明，大咖推荐信，转正offer等无价之宝！
+                                        <br><br>
+                                        不要踌躇满志的等待，因为等待从来换不来改变！马上行动起来，I-intern愿意帮助你成为闪耀的职场新星！
+                                </p><br>
+                                <h2 class="handbook-subheader">实习直推申请流程</h2><br><br><br>
+                                <img width="80%" height="auto" src="./image/intern-2.png" alt="service 2 detail"><br><br><br><br><br><br>
+                                <h2 class="handbook-subheader">部分学员Offer展示</h2><br><br><br>
+                                <img width="80%" height="auto" src="./image/handbook-offer.png" alt="service 2 detail"><br><br><br><br><br><br>
+                                <h2 class="handbook-subheader">部分合作企业</h2><br><br><br>
+                                <img width="80%" height="auto" src="./image/portfolio-company.png" alt="service 2 detail">
+                        </div>
+                        <div class="tab-pane fade" id="product-7" role="tabpanel" aria-labelledby="product-label-7">
+                            <img width="100%" height="auto" src="./image/handbook-7.png" alt="intern-handbook-7">                                
+                            <p class="handbook-content">
+                                    厌倦了走马观花的夏令营，一成不变的名校拍照打卡旅行团？
+                                    <br><br>
+                                    不想浪费假期的时光，渴望利用起来获得知识和能力？
+                                    <br><br>
+                                    希冀在一个夏天变成完全不一样的自己，拥有更高的眼界和想法？
+                                    <br><br>
+                                    I-intern联手硅谷著名投资公司，纽约金融公司等推出游学+实习训练营。
+                                    <br><br>
+                                    由福布斯杰出投资人带你深入了解投资行业，哈佛商学院荣誉学者手把手教授创业秘诀，体验货真价实的企业办公室环境，并开展72小时烧脑模拟创业大赛，产品设计，商业竞演，获得资深投资人点评和模拟融资，一次经历，让你变身成为入门级的投资人/最有想法的创业执行者！
+                                    
+                            </p><br><br>
+                            <img width="80%" height="auto" src="./image/handbook-s3-detail.png" alt="service 3 detail">
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+            <br><br><br><br><br>
+              <div class="footer">
+                    <img width="15%" height="auto" src="./image/logo.png"><br><br>
+                    <div class="footer-socialmedia">
+                      <a href="mailto:info@iintern.com"><img class="social-icon" src="./image/msg.png"></a>
+                      <a href="https://weibo.com/iinterncareer"><img class="social-icon" src="./image/weibo.png"></a>
+                      <a href="https://weibo.com/iinterncareer"><img class="social-icon" src="./image/zhihu.png"></a>
+                      <a href="https://www.instagram.com/iinterncareer/"><img class="social-icon" src="./image/ins.png"></a>
+                      <img class="social-icon" src="./image/wechat.png">
+                    </div>
+                    <p class="footer-note">Copyright © 2017-2018 I-intern, LLC. All rights reserved.</p>
+                  </div>
+
