@@ -437,6 +437,15 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     padding-bottom: 2rem;
 }
 
+.news-hover a {
+    outline: none;
+    text-decoration: none;
+}
+.news-hover:hover {
+    background-color: #F7F7F7;
+    text-decoration: none;
+}
+
 /* -----------------CONTACT---------------- */
 
 .contact-container {

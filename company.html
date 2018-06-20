@@ -164,7 +164,7 @@
         <img width="40%" height="auto" src="./image/company3.png">
         <br><br>
         <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <input class="form-check-input" type="checkbox" value="yes" id="defaultCheck1" required>
             <label class="form-check-label" for="defaultCheck1">
                 我同意并且已经阅读<a href="#">
                         <button type="button" class="btn btn-primary" id="company-contract" data-toggle="modal" data-target="#myModal">
@@ -179,7 +179,6 @@
                                           <h4 class="modal-title">I-intern企业合作服务条款</h4>
                                           <button type="button" class="close" data-dismiss="modal">&times;</button>
                                         </div>
-                                        
                                         <!-- Modal body -->
                                         <div class="modal-body">
                                                 1.	在甲乙双方进行的关于【 I-intern实习平台 游学项目，实习项目等 】合作项目中，双方认为有必要向对方透露一些各自一方拥有所有权的保密信息和专有资料，双方需要并要求对方对这些保密信息和资料进行保密。
@@ -233,9 +232,10 @@
                                       </div>
                                     </div>
                                   </div>
-            </label>
+            </label></input>
         </div>
-        <button type="submit" class="btn btn-primary mb-2 company-btn">同意并加入</button>
+        <button type="submit" class="btn btn-primary mb-2 company-btn" data-toggle="modal" data-target="#myModal">同意并加入</button>
+        
         <br><br><br>
         <h2 class="bold-title">想深入了解合作方式和细节？</h2>
         <img width="30%" height="auto" src="./image/company4.png"/>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+            <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+            <title>I-internCareer | 实习资讯</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+            
+            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>        
+            
+            
+            <script src="../node_modules/countUp.js/countUp.js"></script>        
+            <script src="../js/main.js"></script>
+            <link href="../style.css" rel="stylesheet">
+            <link href="../css/responsive.css" rel="stylesheet">
+            <style>
+              .resume-row {
+                border: 1px solid #898989;
+                z-index: 1;
+              }
+              .resume-row:hover {
+                -ms-transform: scale(1.5); /* IE 9 */
+                -webkit-transform: scale(1.5); /* Safari 3-8 */
+                transform: scale(1.5); 
+                z-index: 999;
+              }
+            </style>
+
+        <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="./image/logo.png" width="120" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-md-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">首页</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="../service.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      产品服务
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="../service.html">产品服务手册</a>
+                        <a class="dropdown-item" href="../service.html#service-background">职前背景提升</a>
+                        <a class="dropdown-item" href="../service.html#service-intern">名企实习直推</a>
+                        <a class="dropdown-item" href="../service.html#service-summer">暑期游学实习</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="../news.html">实习资讯</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../intern.html">定制实习</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../company.html">企业入口</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../case.html">学员故事</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../contact.html">联系我们</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="contact-all">
+            <div class="contact-all-mini">
+              <img src="../image/teng.png"/>
+              <i class="fab fa-weixin contact-mini-icon"></i>
+            </div>            
+            <div class="contact-all-mini" id="phone-dely">
+              <i class="fas fa-phone contact-mini-icon"></i>
+              <span id="delysia">咨询电话：<br>+1 (617) 319-7132</span>
+            </div>
+            <div class="contact-all-mini" id="backtop"><i class="fas fa-arrow-up contact-mini-icon"></i></div>            
+          </div>
+          <div class="header">
+              <img width="50%" height="auto" src="../image/resume-banner.png" alt="resume-banner">                        
+          </div><br><br>
+          <div class="resume-container">
+            <div class="row">
+              <div class="col-sm-2"></div>
+              <div class="col-sm-2">
+                  <img class="resume-row" width="100%" height="auto" src="../image/resume/01.jpg" alt="resume01">                  
+              </div>
+              <div class="col-sm-2">
+                  <img class="resume-row" width="100%" height="auto" src="../image/resume/02.jpg" alt="resume02">                  
+              </div>
+              <div class="col-sm-2">
+                  <img class="resume-row" width="100%" height="auto" src="../image/resume/03.jpg" alt="resume03">                  
+              </div>
+              <div class="col-sm-2">
+                  <img class="resume-row" width="100%" height="auto" src="../image/resume/04.jpg" alt="resume04">                  
+              </div>
+              <div class="col-sm-2"></div>
+            </div><br><br>
+            <div class="row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-2">
+                    <img class="resume-row" width="100%" height="auto" src="../image/resume/05.jpg" alt="resume05">                  
+                </div>
+                <div class="col-sm-2">
+                    <img class="resume-row" width="100%" height="auto" src="../image/resume/06.jpg" alt="resume06">                  
+                </div>
+                <div class="col-sm-2">
+                    <img class="resume-row" width="100%" height="auto" src="../image/resume/07.jpg" alt="resume07">                  
+                </div>
+                <div class="col-sm-2">
+                    <img class="resume-row" width="100%" height="auto" src="../image/resume/08.jpg" alt="resume08">                  
+                </div>
+                <div class="col-sm-2"></div>
+              </div><br><br>
+              <div class="row">
+                  <div class="col-sm-2"></div>
+                  <div class="col-sm-2">
+                      <img class="resume-row" width="100%" height="auto" src="../image/resume/09.jpg" alt="resume09">                  
+                  </div>
+                  <div class="col-sm-2">
+                      <img class="resume-row" width="100%" height="auto" src="../image/resume/10.jpg" alt="resume10">                  
+                  </div>
+                  <div class="col-sm-2">
+                      <img class="resume-row" width="100%" height="auto" src="../image/resume/11.jpg" alt="resume11">                  
+                  </div>
+                  <div class="col-sm-2">
+                      <img class="resume-row" width="100%" height="auto" src="../image/resume/12.jpg" alt="resume12">                  
+                  </div>
+                  <div class="col-sm-2"></div>
+                </div>
+          </div>
+          <br><br><br>
+          <div class="footer">
+              <img width="15%" height="auto" src="../image/logo.png"><br><br>
+              <div class="footer-socialmedia">
+                <a href="mailto:info@iintern.com"><img class="social-icon" src="../image/msg.png"></a>
+                <a href="https://weibo.com/iinterncareer"><img class="social-icon" src="../image/weibo.png"></a>
+                <a href="https://weibo.com/iinterncareer"><img class="social-icon" src="../image/zhihu.png"></a>
+                <a href="https://www.instagram.com/iinterncareer/"><img class="social-icon" src="../image/ins.png"></a>
+                <img class="social-icon" src="../image/wechat.png">
+              </div>
+              <p class="footer-note">Copyright © 2017-2018 I-intern, LLC. All rights reserved.</p>
+            </div>
+          </body>
