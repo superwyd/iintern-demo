@@ -30,11 +30,12 @@ body {
     color: #ffffff;
     font-size: 1rem;
     padding: 16px;
-
 }
+
 #phone-dely:hover #delysia {
     visibility: visible;
 }
+
 .contact-all-mini {
     display: block;
     float: right;
@@ -53,9 +54,6 @@ body {
     color: #DD6B6B;
 }
 
-.contact-mini-icon:hover {
-    display: block;    
-}
 
 
 #contact-mini-weixin {
