@@ -12,8 +12,8 @@ $('ul.navbar-nav li.dropdown').hover(function() {
 // ------------scroll smooth
 $(document).ready(function(){
   $('[data-toggle="counter-up"]').counterUp({
-    delay: 10,
-    time: 1000
+    delay: 30,
+    time: 3000
   });
   // Add smooth scrolling to all links
   $("#contact-btn").on('click', function(event) {
