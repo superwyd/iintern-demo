@@ -1,6 +1,5 @@
 var vid = document.getElementById("bgvid");
 var pauseButton = document.querySelector("#polina button");
-
 $('ul.navbar-nav li.dropdown').hover(function() {
   $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
 }, function() {
@@ -12,6 +11,10 @@ $('ul.navbar-nav li.dropdown').hover(function() {
 
 // ------------scroll smooth
 $(document).ready(function(){
+  $('[data-toggle="counter-up"]').counterUp({
+    delay: 10,
+    time: 1000
+  });
   // Add smooth scrolling to all links
   $("#contact-btn").on('click', function(event) {
 
@@ -60,10 +63,6 @@ var options = {
 	  prefix : '',
 	  suffix : ''
 };
-var $myNumber=8878,//要变化数字
-    mydemo = new CountUp("myElementId", 0, $myNumber, 0, 1.5, options);
-mydemo.start();
-
 
 if (window.matchMedia('(prefers-reduced-motion)').matches) {
     vid.removeAttribute("autoplay");
@@ -74,24 +73,4 @@ if (window.matchMedia('(prefers-reduced-motion)').matches) {
 function vidFade() {
   vid.classList.add("stopfade");
 }
-
-vid.addEventListener('ended', function()
-{
-// only functional if "loop" is removed 
-vid.pause();
-// to capture IE10
-vidFade();
-}); 
-
-
-pauseButton.addEventListener("click", function() {
-  vid.classList.toggle("stopfade");
-  if (vid.paused) {
-    vid.play();
-    pauseButton.innerHTML = "Pause";
-  } else {
-    vid.pause();
-    pauseButton.innerHTML = "Paused";
-  }
-})
 

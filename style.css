@@ -166,6 +166,21 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     padding: 3rem 0;
 }
 
+.counters span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #DD6B6B;
+  }
+  
+  .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #37495B;
+  }
+
 #feedback {
     margin: auto;
     padding: 6rem 0 0 0;
@@ -249,8 +264,6 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 }
 
 #banner-sub1 button { 
-  display: block;
-  width: 30%;
   padding: 0.4rem 1rem;
   border: solid white 0.1rem;
   margin: 2rem 0; 
