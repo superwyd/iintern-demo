@@ -1,10 +1,6 @@
 var vid = document.getElementById("bgvid");
 var pauseButton = document.querySelector("#polina button");
-$('ul.navbar-nav li.dropdown').hover(function() {
-  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
-}, function() {
-  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
-});
+
 
 
 
@@ -14,6 +10,11 @@ $(document).ready(function(){
   $('[data-toggle="counter-up"]').counterUp({
     delay: 30,
     time: 3000
+  });
+  $('ul.navbar-nav li.dropdown').hover(function() {
+    $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+  }, function() {
+    $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
   });
   // Add smooth scrolling to all links
   $("#contact-btn").on('click', function(event) {
