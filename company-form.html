@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>I-internCareer | 企业入口</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+
+    <script src="./node_modules/countUp.js/countUp.js"></script>
+    <script src="js/main.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="./image/logo.png" width="120" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-md-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">首页</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./service.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        产品服务
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./service.html">产品服务手册</a>
+                        <a class="dropdown-item" href="./service.html#service-background">职前背景提升</a>
+                        <a class="dropdown-item" href="./service.html#service-intern">名企实习直推</a>
+                        <a class="dropdown-item" href="./service.html#service-summer">暑期游学实习</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./news.html">实习资讯</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./intern.html">定制实习</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./company.html">企业入口</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./case.html">学员故事</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">联系我们</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="contact-all">
+        <div class="contact-all-mini">
+            <img src="./image/coupon.png" />
+            <i class="far fa-money-bill-alt contact-mini-icon"></i>
+        </div>
+        <div class="contact-all-mini">
+            <img src="./image/teng.png" />
+            <i class="fab fa-weixin contact-mini-icon"></i>
+        </div>
+        <div class="contact-all-mini" id="phone-dely">
+            <i class="fas fa-phone contact-mini-icon"></i>
+            <span id="delysia">咨询电话：
+                <br>+1 (617) 319-7132</span>
+        </div>
+        <div class="contact-all-mini" id="backtop">
+            <i class="fas fa-arrow-up contact-mini-icon"></i>
+        </div>
+    </div>
+    <img width="100%" height="auto" src="./image/form-company-banner.png" alt="form company banner">
+    <form id="company-submit">
+        <div class="form-group">
+            <label class="form-title" for="form-company-name">公司名称</label>
+            <input type="text" class="form-control" id="form-company-name" placeholder="我们不会把您的信息私自散布给任何个人或组织">
+        </div>
+        <div class="form-group">
+            <label class="form-title" for="form-company-website">公司网站</label>
+            <input type="text" class="form-control" id="form-company-website">
+        </div>
+        <div class="form-group">
+            <label class="form-title" for="form-company-intro">公司介绍</label>
+            <input type="text" class="form-control" id="form-company-intro">
+        </div>
+        <div class="form-group">
+            <label class="form-title" for="form-company-address">公司地址</label>
+            <input type="text" class="form-control" id="form-company-address">
+        </div>
+        <div class="form-group">
+            <label class="form-title" for="form-contact-wechat">联系微信</label>
+            <input type="text" class="form-control" id="form-contact-wechat">
+        </div>
+        <div class="form-group">
+            <label class="form-title" for="form-contact-phone">联系电话</label>
+            <input type="text" class="form-control" id="form-contact-phone">
+        </div>
+        <div class="form-group">
+            <label class="form-title" for="form-contact-email">联系邮箱</label>
+            <input type="email" class="form-control" id="form-contact-email">
+        </div>
+        <div class="form-group">
+            <label class="form-title" for="form-position-name">职位名称</label>
+            <input type="text" class="form-control" id="form-position-name">
+        </div>
+        <div class="form-group">
+            <label class="form-title" for="form-position-dsp">职位描述</label>
+            <input type="text" class="form-control" id="form-position-dsp">
+        </div>
+        <div class="form-group">
+            <label class="form-title" for="form-position-req">职位要求</label>
+            <input type="text" class="form-control" id="form-position-req">
+        </div>
+        <div class="form-group">
+            <span class="form-title">接受实习生方式</span>
+            <br>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="form-intern-online" value="option1">
+                <label class="form-check-label" for="form-intern-online">线上实习</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="form-intern-onsite" value="option2">
+                <label class="form-check-label" for="form-intern-onsite">实地实习</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <span class="form-title">实习周期</span>
+            <br>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="form-period-1" value="option1">
+                <label class="form-check-label" for="form-period-1">一个月</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="form-period-2" value="option2">
+                <label class="form-check-label" for="form-period-2">两个月</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="form-period-3" value="option2">
+                <label class="form-check-label" for="form-period-3">三个月</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="form-period-4" value="option2">
+                <label class="form-check-label" for="form-period-4">以上</label>
+            </div>
+        </div>
+        <div class="form-group">
+            <span class="form-title">实习身份类型</span>
+            <br>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="form-status-cpt" value="option1">
+                <label class="form-check-label" for="form-status-cpt">CPT</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">OPT</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">H1b/Green Card</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <input type="text" class="form-control" id="exampleFormControlInput11" placeholder="其他，类型请填写在此">
+            </div>
+        </div>
+        <div class="form-group">
+            <span class="form-title">职位待遇</span>
+            <br>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                <label class="form-check-label" for="inlineCheckbox1">底薪</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">提成</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">奖金</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">转正机会</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <label class="form-check-label" for="inlineCheckbox2">实习证明／推荐信</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                <input type="text" class="form-control" id="exampleFormControlInput11" placeholder="其他福利请在此注明">
+            </div>
+        </div>
+        <input type="submit" class="btn btn-primary mb-2 company-btn" value="提交" />
+    </form>
+
+
+    <div class="footer">
+        <img width="15%" height="auto" src="./image/logo.png">
+        <br>
+        <br>
+        <div class="footer-socialmedia">
+            <a href="mailto:info@iintern.com">
+                <img class="social-icon" src="./image/msg.png">
+            </a>
+            <a href="https://weibo.com/iinterncareer">
+                <img class="social-icon" src="./image/weibo.png">
+            </a>
+            <a href="https://weibo.com/iinterncareer">
+                <img class="social-icon" src="./image/zhihu.png">
+            </a>
+            <a href="https://www.instagram.com/iinterncareer/">
+                <img class="social-icon" src="./image/ins.png">
+            </a>
+            <img class="social-icon" src="./image/wechat.png">
+        </div>
+        <p class="footer-note">Copyright © 2017-2018 I-intern, LLC. All rights reserved.</p>
+    </div>
+</body>

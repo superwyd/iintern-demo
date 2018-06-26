@@ -415,6 +415,29 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 }
 
 
+
+#company-submit {
+    margin: 4rem auto;
+    width: 50%;
+}
+
+.form-title {
+    font-size: 1.5rem;
+    color: #DD6B6B;
+    font-weight: 500;
+    padding-top: 1rem;
+}
+
+.form-group span {
+    margin: 1rem 0 2rem 0;
+}
+
+.form-check-inline {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #37495B;
+}
+
 /* -----------------NEWS---------------- */
 
 .news-container {
