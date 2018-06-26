@@ -407,7 +407,10 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 .modal-dialog {
     max-width: 700px;
-    text-align: center;
+    margin: auto;
+    text-align: left;
+    font-size: 0.8rem;
+    color: #37495B;
 }
 
 .modal-body {
@@ -426,6 +429,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     color: #DD6B6B;
     font-weight: 500;
     padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .form-group span {
@@ -436,6 +440,11 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     margin-top: 1rem;
     font-size: 1.2rem;
     color: #37495B;
+}
+
+.company-inmail-contact {
+    width: 60%;
+    margin: 4rem auto;
 }
 
 /* -----------------NEWS---------------- */
@@ -627,6 +636,11 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     box-shadow: none;
 }
 
+.special {
+    border: 1px solid #898989;
+    border-radius: 5px;
+}
+
 /*----------------------SERVICE-----------------------------*/
 #service-slogan {
     font-size: 2.4rem;
@@ -682,4 +696,12 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 #service-container {
     margin: auto 6rem;
+}
+
+
+/*----------------------- CASE ------------------------*/
+.case-body {
+    padding: 0;
+    margin: auto;
+    text-align: center;
 }
