@@ -1,4 +1,11 @@
-video { 
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+  video { 
     position: fixed;
     top: 50%;
     left: 50%;
@@ -12,22 +19,1156 @@ video {
   background-size: cover;
   transition: 1s opacity;
 }
-/* Medium Layout: 1280px. */
-@media only screen and (min-width: 992px) and (max-width: 1200px) { 
-  
-    
+
+html,body { 
+  height: 100%;
+  margin: 0;
 }
+
+.contact-all {
+	bottom: 30%;
+	right: 0;
+    position: fixed;
+    z-index: 9999;
+    background-color: #F9F9F9;
+}
+
+.contact-all-mini img {
+    display: none;
+    position: absolute;
+    left: -200px;
+    width: 200px;
+    height: 200px;
+}
+#phone-dely #delysia {
+    visibility: hidden;
+    width: 180px;
+    position: absolute;
+    z-index: 1;
+    right: 105%;
+    bottom: 30%;
+    background-color: #37495B;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 16px;
+}
+
+#phone-dely:hover #delysia {
+    visibility: visible;
+}
+
+.contact-all-mini {
+    display: block;
+    float: right;
+    clear: right;
+    border-bottom: 0.5px solid #9b9b9b;
+}
+
+.contact-mini-icon {
+    color: #707B85;
+    margin: 15px;    
+    font-size: 1.2rem;
+    height: auto;
+}
+
+.contact-mini-icon:hover {
+    color: #DD6B6B;
+}
+
+
+
+#contact-mini-weixin {
+    display: block;
+    border-radius: 0.8em;
+    max-width: 100%;
+    height: auto;
+}
+
+
+h1 {
+    font-size: 1rem;
+    margin: 1.4rem 0;
+}
+
+h2 {
+    font-size: 1rem;
+    color: #37495B;
+    margin: 1.5rem 0 0 0;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.navbar {
+    background-color: #fff;
+    clear: both;
+}
+.dropdown:hover .dropdown-menu{
+    display:block;
+  }
+#banner {
+    min-height: 250px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    -moz-box-shadow:  0 2px 5px 0 #333;
+    -webkit-box-shadow: 0 2px 5px 0 #333;
+    box-shadow: 0 2px 5px 0 #333;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+}
+
+#banner-video { 
+    position: absolute;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+#intro {
+    position: relative;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+}
+
+#intro-text {
+  font-size: 0.6rem;
+}
+#service {
+    margin: auto;
+    text-align: center;
+    padding: 0 3rem;
+}
+
+.devide-line {
+    width: 50%;
+}
+
+.service-img {
+    height: 2.5rem;
+    width: auto;
+}
+
+.service-detail {
+    color: #898989;
+    font-size: 0.7rem;
+    margin-bottom: 2rem;
+}
+
+.jump-service {
+    color: #DD6B6B;
+    font-size: 0.8rem;
+    padding: 1rem;
+}
+
+#choice {
+    margin: auto;
+    text-align: center;
+    padding: 3rem;
+}
+
+#choice-graphic {
+    padding: 3rem 0;
+    width: 100%;
+}
+
+.counters span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #DD6B6B;
+  }
+  
+  .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.6rem;
+    color: #37495B;
+  }
+
+#feedback {
+    margin: auto;
+    padding: 6rem 0 0 0;
+}
+
+.center-container {
+    text-align: center;
+}
+
+.feedback-container {
+    padding: 0;
+    margin: 0;
+}
+.student {
+    background-color: #37495B;
+    padding: 4rem 3rem 3rem 3rem;
+}
+.feedback-person {
+    padding: 1rem 0 2rem 0;
+}
+.feedback-detail {
+    color: rgba(255, 255, 255, 60);
+}
+
+.feedback-profile {
+    display: inline;
+}
+
+.feedback-name {
+    display: inline;
+    padding-left: 1rem;
+    font-size: 1rem;
+    color: #fff;
+}
+
+#feedback-title1 {
+    color: white;
+}
+
+.school {
+    padding: 3rem;
+}
+
+#feedback-title2 {
+    color: #000;
+    display: inline;
+    padding: 0 4rem 0 0;
+}
+
+.footer {
+    text-align: center;
+    margin: auto;
+    background-color: #EDF0F3;
+    padding: 6rem 0 2rem 0;
+}
+
+.footer-socialmedia {
+    display: inline;
+}
+
+.social-icon {
+    margin: 3rem 1rem;
+    width: 2.5%;
+    height: auto;
+}
+
+.footer-note {
+    color: #37495B;
+    font-size: 0.8rem;
+}
+
+#banner-sub1 { 
+  font-weight:400; 
+  color: white;
+  margin:14rem 4rem;
+  float: left;
+  font-size: 0.8rem;
+}
+
+#banner-sub1 button { 
+  padding: 0.4rem 1rem;
+  border: solid white 0.05rem;
+  margin: 1.6rem 0; 
+  font-size: 0.8rem;
+  background: transparent;
+  color: #fff;
+  border-radius: 3px; 
+  cursor: pointer;
+  transition: .3s background;
+}
+
+#banner-sub1 button:hover {
+    background-color: #fff;
+    color: #000;
+}
+}
+
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
- 
-    
+  video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
 }
-/* Mobile Layout: 320px. */
-@media only screen and (max-width: 767px) { 
- 
-    
-}
-/* Wide Mobile Layout: 480px. */
-@media only screen and (min-width: 480px) and (max-width: 767px) { 
 
+html,body { 
+  height: 100%;
+  margin: 0;
+}
+
+.contact-all {
+	bottom: 30%;
+	right: 0;
+    position: fixed;
+    z-index: 9999;
+    background-color: #F9F9F9;
+}
+
+.contact-all-mini img {
+    display: none;
+    position: absolute;
+    left: -200px;
+    width: 200px;
+    height: 200px;
+}
+#phone-dely #delysia {
+    visibility: hidden;
+    width: 180px;
+    position: absolute;
+    z-index: 1;
+    right: 105%;
+    bottom: 30%;
+    background-color: #37495B;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 16px;
+}
+
+#phone-dely:hover #delysia {
+    visibility: visible;
+}
+
+.contact-all-mini {
+    display: block;
+    float: right;
+    clear: right;
+    border-bottom: 0.5px solid #9b9b9b;
+}
+
+.contact-mini-icon {
+    color: #707B85;
+    margin: 15px;    
+    font-size: 1.2rem;
+    height: auto;
+}
+
+.contact-mini-icon:hover {
+    color: #DD6B6B;
+}
+
+
+
+#contact-mini-weixin {
+    display: block;
+    border-radius: 0.8em;
+    max-width: 100%;
+    height: auto;
+}
+
+
+h1 {
+    font-size: 1.5rem;
+    margin: 1.4rem 0;
+}
+
+h2 {
+    font-size: 1rem;
+    color: #37495B;
+    margin: 2rem 0 0 0;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.navbar {
+    background-color: #fff;
+}
+.dropdown:hover .dropdown-menu{
+    display:block;
+  }
+#banner {
+    min-height: 250px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    -moz-box-shadow:  0 2px 5px 0 #333;
+    -webkit-box-shadow: 0 2px 5px 0 #333;
+    box-shadow: 0 2px 5px 0 #333;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+}
+
+#banner-video { 
+    position: absolute;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+#intro {
+    position: relative;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding: 6rem;
+}
+
+#intro-text {
+  font-size: 0.8rem;
+}
+#service {
+    margin: auto;
+    text-align: center;
+    padding: 0 6rem;
+}
+
+.devide-line {
+    width: 50%;
+}
+
+.service-img {
+    height: 4rem;
+    width: auto;
+}
+
+.service-detail {
+    color: #898989;
+    font-size: 0.7rem;
+}
+
+.jump-service {
+    color: #DD6B6B;
+    font-size: 0.8rem;
+    padding: 2rem;
+}
+
+#choice {
+    margin: auto;
+    text-align: center;
+    padding: 6rem;
+}
+
+#choice-graphic {
+    padding: 3rem 0;
+}
+
+.counters span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #DD6B6B;
+  }
+  
+  .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    color: #37495B;
+  }
+
+#feedback {
+    margin: auto;
+    padding: 6rem 0 0 0;
+}
+
+.center-container {
+    text-align: center;
+}
+
+.feedback-container {
+    padding: 0;
+    margin: 0;
+}
+.student {
+    background-color: #37495B;
+    padding: 4rem 3rem 3rem 3rem;
+}
+.feedback-person {
+    padding: 1rem 0 2rem 0;
+}
+.feedback-detail {
+    color: rgba(255, 255, 255, 60);
+}
+
+.feedback-profile {
+    display: inline;
+}
+
+.feedback-name {
+    display: inline;
+    padding-left: 1rem;
+    font-size: 1rem;
+    color: #fff;
+}
+
+#feedback-title1 {
+    color: white;
+}
+
+.school {
+    padding: 4rem;
+}
+
+#feedback-title2 {
+    color: #000;
+    display: inline;
+    padding: 0 4rem 0 0;
+}
+
+.footer {
+    text-align: center;
+    margin: auto;
+    background-color: #EDF0F3;
+    padding: 6rem 0 2rem 0;
+}
+
+.footer-socialmedia {
+    display: inline;
+}
+
+.social-icon {
+    margin: 3rem 1rem;
+    width: 2.5%;
+    height: auto;
+}
+
+.footer-note {
+    color: #37495B;
+    font-size: 0.8rem;
+}
+
+#banner-sub1 { 
+  font-weight:400; 
+  color: white;
+  padding: 2rem;
+  margin:14rem 4rem;
+  float: left;
+  font-size: 1.2rem;
+}
+
+#banner-sub1 button { 
+  padding: 0.4rem 1rem;
+  border: solid white 0.1rem;
+  margin: 2rem 0; 
+  font-size: 1rem;
+  background: transparent;
+  color: #fff;
+  border-radius: 3px; 
+  cursor: pointer;
+  transition: .3s background;
+}
+
+#banner-sub1 button:hover {
+    background-color: #fff;
+    color: #000;
+}
+}
+
+/* Medium Layout: 1200px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+html,body { 
+  height: 100%;
+  margin: 0;
+}
+
+.contact-all {
+	bottom: 30%;
+	right: 0;
+    position: fixed;
+    z-index: 9999;
+    background-color: #F9F9F9;
+}
+
+.contact-all-mini img {
+    display: none;
+    position: absolute;
+    left: -200px;
+    width: 200px;
+    height: 200px;
+}
+#phone-dely #delysia {
+    visibility: hidden;
+    width: 180px;
+    position: absolute;
+    z-index: 1;
+    right: 105%;
+    bottom: 30%;
+    background-color: #37495B;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 16px;
+}
+
+#phone-dely:hover #delysia {
+    visibility: visible;
+}
+
+.contact-all-mini {
+    display: block;
+    float: right;
+    clear: right;
+    border-bottom: 0.5px solid #9b9b9b;
+}
+
+.contact-mini-icon {
+    color: #707B85;
+    margin: 18px;    
+    font-size: 2rem;
+    height: auto;
+}
+
+.contact-mini-icon:hover {
+    color: #DD6B6B;
+}
+
+
+
+#contact-mini-weixin {
+    display: block;
+    border-radius: 0.8em;
+    max-width: 100%;
+    height: auto;
+}
+
+
+h1 {
+    font-size: 1.5rem;
+    margin: 1.4rem 0;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: #37495B;
+    margin: 2rem 0 0 0;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.navbar {
+    background-color: #fff;
+}
+.dropdown:hover .dropdown-menu{
+    display:block;
+  }
+#banner {
+    min-height: 250px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    -moz-box-shadow:  0 2px 5px 0 #333;
+    -webkit-box-shadow: 0 2px 5px 0 #333;
+    box-shadow: 0 2px 5px 0 #333;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+}
+
+#banner-video { 
+    position: absolute;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+#intro {
+    position: relative;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding: 6rem;
+}
+
+#intro-text {
+  font-size: 0.8rem;
+}
+#service {
+    margin: auto;
+    text-align: center;
+    padding: 0 6rem;
+}
+
+.devide-line {
+    width: 50%;
+}
+
+.service-img {
+    height: 4rem;
+    width: auto;
+}
+
+.service-detail {
+    color: #898989;
+    font-size: 1rem;
+}
+
+.jump-service {
+    color: #DD6B6B;
+    font-size: 1rem;
+    padding: 3rem;
+}
+
+#choice {
+    margin: auto;
+    text-align: center;
+    padding: 6rem;
+}
+
+#choice-graphic {
+    padding: 3rem 0;
+}
+
+.counters span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #DD6B6B;
+  }
+  
+  .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #37495B;
+  }
+
+#feedback {
+    margin: auto;
+    padding: 6rem 0 0 0;
+}
+
+.center-container {
+    text-align: center;
+}
+
+.feedback-container {
+    padding: 0;
+    margin: 0;
+}
+.student {
+    background-color: #37495B;
+    padding: 4rem 3rem 3rem 3rem;
+}
+.feedback-person {
+    padding: 1rem 0 2rem 0;
+}
+.feedback-detail {
+    color: rgba(255, 255, 255, 60);
+}
+
+.feedback-profile {
+    display: inline;
+}
+
+.feedback-name {
+    display: inline;
+    padding-left: 1rem;
+    font-size: 1rem;
+    color: #fff;
+}
+
+#feedback-title1 {
+    color: white;
+}
+
+.school {
+    padding: 6rem;
+}
+
+#feedback-title2 {
+    color: #000;
+    display: inline;
+    padding: 0 4rem 0 0;
+}
+
+.footer {
+    text-align: center;
+    margin: auto;
+    background-color: #EDF0F3;
+    padding: 6rem 0 2rem 0;
+}
+
+.footer-socialmedia {
+    display: inline;
+}
+
+.social-icon {
+    margin: 3rem 1rem;
+    width: 1.6%;
+    height: auto;
+}
+
+.footer-note {
+    color: #37495B;
+    font-size: 0.8rem;
+}
+
+#banner-sub1 { 
+  font-weight:400; 
+  color: white;
+  padding: 2rem;
+  margin:14rem 4rem;
+  float: left;
+  font-size: 1.2rem;
+}
+
+#banner-sub1 button { 
+  padding: 0.4rem 1rem;
+  border: solid white 0.1rem;
+  margin: 2rem 0; 
+  font-size: 1rem;
+  background: transparent;
+  color: #fff;
+  border-radius: 3px; 
+  cursor: pointer;
+  transition: .3s background;
+}
+
+#banner-sub1 button:hover {
+    background-color: #fff;
+    color: #000;
+}
+}
+
+/* Max Layout */
+@media only screen and (min-width: 1201px) { 
+  video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}
+
+html,body { 
+  height: 100%;
+  margin: 0;
+}
+
+.contact-all {
+	bottom: 30%;
+	right: 0;
+    position: fixed;
+    z-index: 9999;
+    background-color: #F9F9F9;
+}
+
+.contact-all-mini img {
+    display: none;
+    position: absolute;
+    left: -200px;
+    width: 200px;
+    height: 200px;
+}
+#phone-dely #delysia {
+    visibility: hidden;
+    width: 180px;
+    position: absolute;
+    z-index: 1;
+    right: 105%;
+    bottom: 30%;
+    background-color: #37495B;
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 16px;
+}
+
+#phone-dely:hover #delysia {
+    visibility: visible;
+}
+
+.contact-all-mini {
+    display: block;
+    float: right;
+    clear: right;
+    border-bottom: 0.5px solid #9b9b9b;
+}
+
+.contact-mini-icon {
+    color: #707B85;
+    margin: 18px;    
+    font-size: 2rem;
+    height: auto;
+}
+
+.contact-mini-icon:hover {
+    color: #DD6B6B;
+}
+
+
+
+#contact-mini-weixin {
+    display: block;
+    border-radius: 0.8em;
+    max-width: 100%;
+    height: auto;
+}
+
+
+h1 {
+    font-size: 1.5rem;
+    margin: 1.4rem 0;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: #37495B;
+    margin: 2rem 0 0 0;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.navbar {
+    background-color: #fff;
+}
+.dropdown:hover .dropdown-menu{
+    display:block;
+  }
+#banner {
+    min-height: 250px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    -moz-box-shadow:  0 2px 5px 0 #333;
+    -webkit-box-shadow: 0 2px 5px 0 #333;
+    box-shadow: 0 2px 5px 0 #333;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 80%;
+}
+
+#banner-video { 
+    position: absolute;
+    min-width: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+#intro {
+    position: relative;
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    padding: 6rem 14rem;
+}
+
+
+
+#service {
+    margin: auto;
+    text-align: center;
+    padding: 0 6rem;
+}
+
+.devide-line {
+    width: 50%;
+}
+
+.service-img {
+    height: 4rem;
+    width: auto;
+}
+
+.service-detail {
+    color: #898989;
+    font-size: 1rem;
+}
+
+.jump-service {
+    color: #DD6B6B;
+    font-size: 1rem;
+    padding: 3rem;
+}
+
+#choice {
+    margin: auto;
+    text-align: center;
+    padding: 6rem;
+}
+
+#choice-graphic {
+    padding: 3rem 0;
+}
+
+.counters span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    color: #DD6B6B;
+  }
+  
+  .counters p {
+    padding: 0;
+    margin: 0 0 20px 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #37495B;
+  }
+
+#feedback {
+    margin: auto;
+    padding: 6rem 0 0 0;
+}
+
+.center-container {
+    text-align: center;
+}
+
+.feedback-container {
+    padding: 0;
+    margin: 0;
+}
+.student {
+    background-color: #37495B;
+    padding: 6rem;
+}
+.feedback-person {
+    padding: 2rem 0;
+}
+.feedback-detail {
+    color: rgba(255, 255, 255, 60);
+}
+
+.feedback-profile {
+    display: inline;
+}
+
+.feedback-name {
+    display: inline;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+#feedback-title1 {
+    color: white;
+}
+
+.school {
+    padding: 6rem;
+}
+
+#feedback-title2 {
+    color: #000;
+    display: inline;
+    padding: 0 4rem 0 0;
+}
+
+.footer {
+    text-align: center;
+    margin: auto;
+    background-color: #EDF0F3;
+    padding: 6rem 0 2rem 0;
+}
+
+.footer-socialmedia {
+    display: inline;
+}
+
+.social-icon {
+    margin: 3rem 1rem;
+    width: 1.6%;
+    height: auto;
+}
+
+.footer-note {
+    color: #37495B;
+    font-size: 0.8rem;
+}
+
+#banner-sub1 { 
+  font-weight:400; 
+  color: white;
+  padding: 2rem;
+  width: 33%;
+  margin:14rem 4rem;
+  float: left;
+  font-size: 1.2rem;
+}
+
+#banner-sub1 button { 
+  padding: 0.4rem 1rem;
+  border: solid white 0.1rem;
+  margin: 2rem 0; 
+  font-size: 1rem;
+  background: transparent;
+  color: #fff;
+  border-radius: 3px; 
+  cursor: pointer;
+  transition: .3s background;
+}
+
+#banner-sub1 button:hover {
+    background-color: #fff;
+    color: #000;
+}
 }

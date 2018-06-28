@@ -1,0 +1,115 @@
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    
+    }
+    
+    /* Mobile Layout: 320px. */
+    @media only screen and (max-width: 767px) { 
+      
+    }
+    
+    /* Tablet Layout: 768px. */
+    @media only screen and (min-width: 768px) and (max-width: 991px) { 
+      
+    }
+    
+    /* Medium Layout: 1280px. */
+    @media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    
+    }
+    
+    /* Max Layout */
+    @media only screen and (min-width: 1201px) { 
+/* -----------------CONTACT---------------- */
+
+.contact-container {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+#contact-locationtitle {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#location-container {
+    margin: auto;
+    width: 90%;
+    padding-top: 4rem;
+}
+
+#contact-join, #contact-mail {
+    text-align: center;
+    margin: auto;
+}
+
+.bold-title {
+    font-size: 1.8rem;
+    color: #000;
+    font-weight: 700;
+    padding-bottom: 2rem;
+}
+
+.card-header {
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.card-header:hover {
+    background-color: #fbfbfb;
+}
+
+.card-header:after {
+    content: '\002B';
+    color: #DD6B6B;
+    float: right;
+    margin-left: 5px;
+}
+
+.card-header.show:after {
+    content: '\2796';
+    color: #DD6B6B;
+    float: right;
+    margin-left: 5px;
+}
+
+#contact-position {
+    width: 60%;
+    margin: auto;
+}
+
+.card {
+    border: none;
+}
+
+.position-title-eng {
+    font-size: 1rem;
+    color: #DD6B6B;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.position-title-cn {
+    font-size: 2rem;
+    color: #37495B;
+    font-weight: 400;
+    padding-bottom: 0.8rem;
+    padding-top: 1.6rem;
+}
+
+.dsp-title {
+    color: #37495B;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    font-size: 1.6rem;
+}
+
+.dsp-detail {
+    color: #707B85;
+    font-size: 1rem;
+    padding-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 2rem;
+}
+    }

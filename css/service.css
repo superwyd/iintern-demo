@@ -1,0 +1,81 @@
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    
+    }
+    
+    /* Mobile Layout: 320px. */
+    @media only screen and (max-width: 767px) { 
+      
+    }
+    
+    /* Tablet Layout: 768px. */
+    @media only screen and (min-width: 768px) and (max-width: 991px) { 
+      
+    }
+    
+    /* Medium Layout: 1280px. */
+    @media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    
+    }
+    
+    /* Max Layout */
+    @media only screen and (min-width: 1201px) { 
+
+/*----------------------SERVICE-----------------------------*/
+#service-slogan {
+    font-size: 2.4rem;
+    color: #000;
+    font-weight: 700;   
+}
+
+#service-book, #service-background, #service-intern, #service-summer {
+    text-align: center;
+    margin: auto;
+    width: 70%; 
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+
+.service-company-sub {
+    color: #898989;
+    font-weight: 500;
+}
+
+.service-company-detail {
+    padding: 0.1rem 2rem;
+}
+
+
+/*----------------------SERVICE HANDBOOK-----------------------------*/
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #ffffff;
+    background-color: #37495B;
+}
+
+
+.nav-link {
+    color: #37495B;
+}
+
+.nav-link:hover {
+    color: #DD6B6B;
+}
+
+.handbook-subheader {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #DD6B6B;
+}
+
+.handbook-content {
+    font-size: 1rem;
+    color: #898989;
+    padding-right: 4rem;
+    padding-top: 1rem;
+}
+
+#service-container {
+    margin: auto 6rem;
+}
+
+    }

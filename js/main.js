@@ -3,8 +3,6 @@ var pauseButton = document.querySelector("#polina button");
 
 
 
-
-
 // ------------scroll smooth
 $(document).ready(function(){
   $('ul.navbar-nav li.dropdown').hover(function() {

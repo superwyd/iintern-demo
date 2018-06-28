@@ -1,0 +1,682 @@
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    
+    }
+    
+    /* Mobile Layout: 320px. */
+    @media only screen and (max-width: 767px) { 
+                    /* ---------- company --------------- */
+                    .header {
+                        margin-top: 4rem auto;
+                        padding: 10rem 4rem 2rem 4rem;
+                        text-align: center;
+                    }
+            
+                    .header-title {
+                        font-size: 2rem;
+                        font-weight: 600;
+                    }
+            
+                    .header-sub {
+                        font-size: 1rem;
+                        width: 60%;
+                        margin: 4rem auto;
+                        color: #707B85;
+                    }
+            
+                    .company-why {
+                        padding: 0 0 2rem 4rem;
+                        font-size: 1.8rem;
+                        color: #000;
+                        font-weight: 700;
+                        text-align: center;
+                    }
+            
+                    .company-whydsp {
+                        width: 80%;
+                    }
+            
+            
+                    .company-whytitle {
+                        padding: 4rem 0.8rem 1rem 0.8rem;
+                        color: #DD6B6B;
+                        font-size: 1.3rem;
+                    }
+            
+                    .company-whydetail {
+                        color:#707B85;
+                        font-size: 1rem;
+                        padding: 0 0.8rem;
+                    }
+            
+                    #company-detail {
+                        text-align: center;
+                    }
+            
+                    #company-feedback {
+                        background-color: #37495B;
+                        margin-top: 4rem;
+                    }
+            
+                    #company-title1 {
+                        color: #DD6B6B;
+                        font-size: 2rem;
+                        padding-bottom: 0.8rem;
+                    }
+            
+                    #company-title2 {
+                        color: #707B85;
+                        font-family: "Avenir Next";
+                        font-style: italic;
+                        font-size: 2rem;
+                    }
+            
+                    .hr-profile {
+                        width: 80%;
+                        height: 80%;
+                        padding: 2rem;
+                    }
+            
+                    .hr-name, .hr-title, .hr-feedback {
+                        color: #fff;
+                        font-size: 0.7rem;
+                    }
+            
+                    .fb-title {
+                        padding: 10rem 0;
+                    }
+            
+                    .fb-detail {
+                        padding: 10rem 0;
+                    }
+            
+            
+                    .carousel-control-next, .carousel-control-prev {
+                        width: 0;
+                    }
+            
+                    #contact {
+                        margin-top: 4rem;
+                        text-align: center;
+                    }
+            
+                    .company-btn {
+                        background-color: #37495B;
+                        margin: 5rem 0;
+                        border-color: #37495B;
+                        padding: 0.4rem 1.8rem;
+                    }
+            
+                    .company-btn:hover {
+                        background-color: #fff;
+                        color: #37495B;
+                        border-color: #37495B;
+                        
+                    }
+            
+                    #company-contract {
+                        color: #DD6B6B;
+                        background: none;
+                        border: none;
+                        padding: 0;
+                        vertical-align: top;
+                    }
+            
+                    #company-contract:hover {
+                        background: none;
+                        color: #37495B;
+                    }
+            
+                    #company-contract:focus {
+                        outline-color: #000;
+                    }
+        
+                    .modal-dialog {
+                        max-width: 700px;
+                        margin: auto;
+                        text-align: left;
+                        font-size: 0.8rem;
+                        color: #37495B;
+                    }
+            
+                    .modal-body {
+                        padding: 4rem;
+                    }
+            
+                    #company-submit {
+                        margin: 4rem auto;
+                        width: 50%;
+                    }
+            
+                    .form-title {
+                        font-size: 1.5rem;
+                        color: #DD6B6B;
+                        font-weight: 500;
+                        padding-top: 1rem;
+                        padding-bottom: 1rem;
+                    }
+            
+                    .form-group span {
+                        margin: 1rem 0 2rem 0;
+                    }
+            
+                    .form-check-inline {
+                        margin-top: 1rem;
+                        font-size: 1.2rem;
+                        color: #37495B;
+                    }
+            
+                    .company-inmail-contact {
+                        width: 60%;
+                        margin: 4rem auto;
+                    }
+    }
+    
+    /* Tablet Layout: 768px. */
+    @media only screen and (min-width: 768px) and (max-width: 991px) { 
+              /* ---------- company --------------- */
+              .header {
+                margin-top: 4rem auto;
+                padding: 10rem 4rem 2rem 4rem;
+                text-align: center;
+            }
+    
+            .header-title {
+                font-size: 2rem;
+                font-weight: 600;
+            }
+    
+            .header-sub {
+                font-size: 1rem;
+                width: 60%;
+                margin: 4rem auto;
+                color: #707B85;
+            }
+    
+            .company-why {
+                padding: 0 0 2rem 4rem;
+                font-size: 1.8rem;
+                color: #000;
+                font-weight: 700;
+                text-align: center;
+            }
+    
+            .company-whydsp {
+                width: 80%;
+            }
+    
+    
+            .company-whytitle {
+                padding: 4rem 0.8rem 1rem 0.8rem;
+                color: #DD6B6B;
+                font-size: 1.3rem;
+            }
+    
+            .company-whydetail {
+                color:#707B85;
+                font-size: 1rem;
+                padding: 0 0.8rem;
+            }
+    
+            #company-detail {
+                text-align: center;
+            }
+    
+            #company-feedback {
+                background-color: #37495B;
+                margin-top: 4rem;
+            }
+    
+            #company-title1 {
+                color: #DD6B6B;
+                font-size: 2rem;
+                padding-bottom: 0.8rem;
+            }
+    
+            #company-title2 {
+                color: #707B85;
+                font-family: "Avenir Next";
+                font-style: italic;
+                font-size: 2rem;
+            }
+    
+            .hr-profile {
+                width: 80%;
+                height: 80%;
+                padding: 2rem;
+            }
+    
+            .hr-name, .hr-title, .hr-feedback {
+                color: #fff;
+                font-size: 0.7rem;
+            }
+    
+            .fb-title {
+                padding: 10rem 0;
+            }
+    
+            .fb-detail {
+                padding: 10rem 0;
+            }
+    
+    
+            .carousel-control-next, .carousel-control-prev {
+                width: 0;
+            }
+    
+            #contact {
+                margin-top: 4rem;
+                text-align: center;
+            }
+    
+            .company-btn {
+                background-color: #37495B;
+                margin: 5rem 0;
+                border-color: #37495B;
+                padding: 0.4rem 1.8rem;
+            }
+    
+            .company-btn:hover {
+                background-color: #fff;
+                color: #37495B;
+                border-color: #37495B;
+                
+            }
+    
+            #company-contract {
+                color: #DD6B6B;
+                background: none;
+                border: none;
+                padding: 0;
+                vertical-align: top;
+            }
+    
+            #company-contract:hover {
+                background: none;
+                color: #37495B;
+            }
+    
+            #company-contract:focus {
+                outline-color: #000;
+            }
+
+            .modal-dialog {
+                max-width: 700px;
+                margin: auto;
+                text-align: left;
+                font-size: 0.8rem;
+                color: #37495B;
+            }
+    
+            .modal-body {
+                padding: 4rem;
+            }
+    
+            #company-submit {
+                margin: 4rem auto;
+                width: 50%;
+            }
+    
+            .form-title {
+                font-size: 1.5rem;
+                color: #DD6B6B;
+                font-weight: 500;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+            }
+    
+            .form-group span {
+                margin: 1rem 0 2rem 0;
+            }
+    
+            .form-check-inline {
+                margin-top: 1rem;
+                font-size: 1.2rem;
+                color: #37495B;
+            }
+    
+            .company-inmail-contact {
+                width: 60%;
+                margin: 4rem auto;
+            }
+    }
+    
+    /* Medium Layout: 1280px. */
+    @media only screen and (min-width: 992px) and (max-width: 1200px) { 
+        /* ---------- company --------------- */
+        .header {
+            margin-top: 4rem auto;
+            padding: 10rem 4rem 2rem 4rem;
+            text-align: center;
+        }
+
+        .header-title {
+            font-size: 2rem;
+            font-weight: 600;
+        }
+
+        .header-sub {
+            font-size: 1rem;
+            width: 60%;
+            margin: 4rem auto;
+            color: #707B85;
+        }
+
+        .company-why {
+            padding: 0 0 2rem 4rem;
+            font-size: 1.8rem;
+            color: #000;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .company-whydsp {
+            width: 80%;
+        }
+
+
+        .company-whytitle {
+            padding: 4rem 0.8rem 1rem 0.8rem;
+            color: #DD6B6B;
+            font-size: 1.3rem;
+        }
+
+        .company-whydetail {
+            color:#707B85;
+            font-size: 1rem;
+            padding: 0 0.8rem;
+        }
+
+        #company-detail {
+            text-align: center;
+        }
+
+        #company-feedback {
+            background-color: #37495B;
+            margin-top: 4rem;
+        }
+
+        #company-title1 {
+            color: #DD6B6B;
+            font-size: 2rem;
+            padding-bottom: 0.8rem;
+        }
+
+        #company-title2 {
+            color: #707B85;
+            font-family: "Avenir Next";
+            font-style: italic;
+            font-size: 2rem;
+        }
+
+        .hr-profile {
+            width: 80%;
+            height: 80%;
+            padding: 2rem;
+        }
+
+        .hr-name, .hr-title, .hr-feedback {
+            color: #fff;
+            font-size: 0.7rem;
+        }
+
+        .fb-title {
+            padding: 10rem 0;
+        }
+
+        .fb-detail {
+            padding: 10rem 0;
+        }
+
+
+        .carousel-control-next, .carousel-control-prev {
+            width: 0;
+        }
+
+        #contact {
+            margin-top: 4rem;
+            text-align: center;
+        }
+
+        .company-btn {
+            background-color: #37495B;
+            margin: 5rem 0;
+            border-color: #37495B;
+            padding: 0.4rem 1.8rem;
+        }
+
+        .company-btn:hover {
+            background-color: #fff;
+            color: #37495B;
+            border-color: #37495B;
+            
+        }
+
+        #company-contract {
+            color: #DD6B6B;
+            background: none;
+            border: none;
+            padding: 0;
+            vertical-align: top;
+        }
+
+        #company-contract:hover {
+            background: none;
+            color: #37495B;
+        }
+
+        #company-contract:focus {
+            outline-color: #000;
+        }
+
+        .modal-dialog {
+            max-width: 700px;
+            margin: auto;
+            text-align: left;
+            font-size: 0.8rem;
+            color: #37495B;
+        }
+
+        .modal-body {
+            padding: 4rem;
+        }
+
+        #company-submit {
+            margin: 4rem auto;
+            width: 50%;
+        }
+
+        .form-title {
+            font-size: 1.5rem;
+            color: #DD6B6B;
+            font-weight: 500;
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
+
+        .form-group span {
+            margin: 1rem 0 2rem 0;
+        }
+
+        .form-check-inline {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            color: #37495B;
+        }
+
+        .company-inmail-contact {
+            width: 60%;
+            margin: 4rem auto;
+        }
+    }
+    
+    /* Max Layout */
+    @media only screen and (min-width: 1201px) { 
+/* ---------- company --------------- */
+.header {
+    margin-top: 4rem auto;
+    padding: 10rem 4rem 2rem 4rem;
+    text-align: center;
+}
+
+.header-title {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.header-sub {
+    font-size: 1rem;
+    width: 60%;
+    margin: 4rem auto;
+    color: #707B85;
+}
+
+.company-why {
+    padding: 0 0 2rem 4rem;
+    font-size: 1.8rem;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+}
+
+.company-whydsp {
+    width: 80%;
+}
+
+
+.company-whytitle {
+    padding: 4rem 0.8rem 1rem 0.8rem;
+    color: #DD6B6B;
+    font-size: 1.3rem;
+}
+
+.company-whydetail {
+    color:#707B85;
+    font-size: 1rem;
+    padding: 0 0.8rem;
+}
+
+#company-detail {
+    text-align: center;
+}
+
+#company-feedback {
+    background-color: #37495B;
+    margin-top: 4rem;
+}
+
+#company-title1 {
+    color: #DD6B6B;
+    font-size: 2rem;
+    padding-bottom: 0.8rem;
+}
+
+#company-title2 {
+    color: #707B85;
+    font-family: "Avenir Next";
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.hr-profile {
+    width: 80%;
+    height: 80%;
+    padding: 2rem;
+}
+
+.hr-name, .hr-title, .hr-feedback {
+    color: #fff;
+}
+
+.fb-title {
+    padding: 10rem 0;
+}
+
+.fb-detail {
+    padding: 10rem 0;
+}
+
+
+.carousel-control-next, .carousel-control-prev {
+    width: 0;
+}
+
+#contact {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.company-btn {
+    background-color: #37495B;
+    margin: 5rem 0;
+    border-color: #37495B;
+    padding: 0.4rem 1.8rem;
+}
+
+.company-btn:hover {
+    background-color: #fff;
+    color: #37495B;
+    border-color: #37495B;
+    
+}
+
+#company-contract {
+    color: #DD6B6B;
+    background: none;
+    border: none;
+    padding: 0;
+    vertical-align: top;
+}
+
+#company-contract:hover {
+    background: none;
+    color: #37495B;
+}
+
+#company-contract:focus {
+    outline-color: #000;
+}
+
+.modal-dialog {
+    max-width: 700px;
+    margin: auto;
+    text-align: left;
+    font-size: 0.8rem;
+    color: #37495B;
+}
+
+.modal-body {
+    padding: 4rem;
+}
+
+
+
+#company-submit {
+    margin: 4rem auto;
+    width: 50%;
+}
+
+.form-title {
+    font-size: 1.5rem;
+    color: #DD6B6B;
+    font-weight: 500;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.form-group span {
+    margin: 1rem 0 2rem 0;
+}
+
+.form-check-inline {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #37495B;
+}
+
+.company-inmail-contact {
+    width: 60%;
+    margin: 4rem auto;
+}
+
+}

@@ -1,0 +1,81 @@
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    
+    }
+    
+    /* Mobile Layout: 320px. */
+    @media only screen and (max-width: 767px) { 
+      
+    }
+    
+    /* Tablet Layout: 768px. */
+    @media only screen and (min-width: 768px) and (max-width: 991px) { 
+      
+    }
+    
+    /* Medium Layout: 1280px. */
+    @media only screen and (min-width: 992px) and (max-width: 1200px) { 
+    
+    }
+    
+    /* Max Layout */
+    @media only screen and (min-width: 1201px) { 
+/* ----------------INTERN--------------- */
+.intern-company {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.center-header {
+    font-size: 1.5rem;
+    padding: 6rem 0;
+}
+
+.intern-company-hire {
+    padding: 0 2rem 2rem 2rem;
+}
+
+#intern-guide, #intern-past {
+    margin: auto;
+    text-align: center;
+    width: 70%;
+}
+
+#intern-apply {
+    background-color: #37495B;
+}
+#apply-container {
+    width: 60%;
+    margin: auto;
+    padding: 10rem 0;
+}
+#apply-img {
+    padding-right: 0;
+    margin-right: 0;
+}
+#apply-form {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.form-control {
+    border: none;
+    border-bottom: 1px solid #000000;
+    box-shadow: none;
+    border-radius: 0;
+    font-size: 1rem;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.special {
+    border: 1px solid #898989;
+    border-radius: 5px;
+}
+    }
