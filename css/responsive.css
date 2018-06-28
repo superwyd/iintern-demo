@@ -509,7 +509,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 }
 .student {
     background-color: #37495B;
-    padding: 4rem 3rem 3rem 3rem;
+    padding: 3rem;
 }
 .feedback-person {
     padding: 1rem 0 2rem 0;
