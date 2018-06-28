@@ -42,32 +42,38 @@
     width: 70%;
 }
 
-#intern-apply {
-    background-color: #37495B;
-}
 #apply-container {
-    width: 60%;
     margin: auto;
-    padding: 10rem 0;
 }
 #apply-img {
-    padding-right: 0;
-    margin-right: 0;
+    background-color: #37495B;
+    margin: 0 auto;
+    text-align: center;
+    padding: 8rem 0;
 }
 #apply-form {
+    padding: 6rem 8rem;
     background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
 }
-
+.row {
+    margin: auto 0;
+}
 .form-control {
     border: none;
     border-bottom: 1px solid #000000;
     box-shadow: none;
     border-radius: 0;
     font-size: 1rem;
+}
+
+#apply-title {
+    font-size: 1.6rem;
+    padding: 2rem 0;
+}
+
+#apply-subtitle {
+    color: #898989;
+    font-weight: 400;
 }
 
 .form-control:focus {
