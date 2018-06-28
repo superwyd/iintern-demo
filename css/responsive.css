@@ -239,6 +239,9 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     color: white;
 }
 
+#feedback-row {
+  margin: 0;
+}
 .school {
     padding: 3rem;
 }
@@ -262,13 +265,13 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 .social-icon {
     margin: 3rem 1rem;
-    width: 2.5%;
+    width: 4%;
     height: auto;
 }
 
 .footer-note {
     color: #37495B;
-    font-size: 0.8rem;
+    font-size: 0.6rem;
 }
 
 #banner-sub1 { 
@@ -528,6 +531,10 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 #feedback-title1 {
     color: white;
+}
+
+#feedback-row {
+  margin: 0;
 }
 
 .school {
@@ -832,6 +839,10 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     padding: 0 4rem 0 0;
 }
 
+#feedback-row {
+  margin: 0;
+}
+
 .footer {
     text-align: center;
     margin: auto;
@@ -1111,6 +1122,10 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 #feedback-title1 {
     color: white;
+}
+
+#feedback-row {
+  margin: 0;
 }
 
 .school {
