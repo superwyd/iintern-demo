@@ -5,7 +5,7 @@
 
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
-  video { 
+  #banner-video { 
     position: fixed;
     top: 50%;
     left: 50%;
@@ -125,16 +125,6 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     height: 80%;
 }
 
-#banner-video { 
-    position: absolute;
-    min-width: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
-    transition: 1s opacity;
-}
 
 #intro {
     position: relative;
@@ -302,7 +292,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
-  video { 
+  #banner-video { 
     position: fixed;
     top: 50%;
     left: 50%;
@@ -421,16 +411,6 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     height: 80%;
 }
 
-#banner-video { 
-    position: absolute;
-    min-width: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
-    transition: 1s opacity;
-}
 
 #intro {
     position: relative;
@@ -598,7 +578,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 /* Medium Layout: 1200px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
-  video { 
+  #vanner-video { 
     position: fixed;
     top: 50%;
     left: 50%;
@@ -717,16 +697,6 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     height: 80%;
 }
 
-#banner-video { 
-    position: absolute;
-    min-width: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
-    transition: 1s opacity;
-}
 
 #intro {
     position: relative;
@@ -894,7 +864,7 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 /* Max Layout */
 @media only screen and (min-width: 1201px) { 
-  video { 
+  #banner-video { 
     position: fixed;
     top: 50%;
     left: 50%;
@@ -1011,17 +981,6 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     overflow: hidden;
     width: 100%;
     height: 80%;
-}
-
-#banner-video { 
-    position: absolute;
-    min-width: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-    background-size: cover;
-    transition: 1s opacity;
 }
 
 #intro {
