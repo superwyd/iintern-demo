@@ -11,7 +11,14 @@
                         padding: 8rem 2rem 2rem 2rem;
                         text-align: center;
                     }
-            
+                    .navbar-toggler {
+                        border: none;
+                        outline: none;
+                     }
+                     
+                     button:focus {
+                         outline: none;
+                     }
                     .header-title {
                         font-size: 2rem;
                         font-weight: 600;
@@ -196,7 +203,9 @@
                 font-size: 2rem;
                 font-weight: 600;
             }
-    
+            button:focus {
+                outline: none;
+            }
             .header-sub {
                 font-size: 1rem;
                 width: 75%;
@@ -363,6 +372,9 @@
         .header-img {
             padding: 4rem 0 2rem 0;
             text-align: center;            
+        }
+        button:focus {
+            outline: none;
         }
         .header-title {
             font-size: 2rem;
@@ -532,7 +544,9 @@
     padding: 10rem 4rem 2rem 4rem;
     text-align: center;
 }
-
+button:focus {
+    outline: none;
+}
 .header-title {
     font-size: 2rem;
     font-weight: 600;

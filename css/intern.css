@@ -16,7 +16,14 @@
         font-size: 1rem;
         padding: 1rem 0;
     }
-
+    .navbar-toggler {
+        border: none;
+        outline: none;
+     }
+     
+     button:focus {
+         outline: none;
+     }
     .intern-company-hire {
         padding: 1rem;
     }
@@ -37,7 +44,7 @@
         padding: 8rem 0;
         display: none;
     }
-    #apply-form {
+    .apply-form {
         padding: 3rem 4rem;
         background-color: #fff;
     }

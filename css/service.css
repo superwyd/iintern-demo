@@ -11,6 +11,14 @@
         color: #000;
         font-weight: 700;   
     }
+    .navbar-toggler {
+        border: none;
+        outline: none;
+     }
+     
+     button:focus {
+         outline: none;
+     }
     .service-img {
         height: 15%;
         width: auto;

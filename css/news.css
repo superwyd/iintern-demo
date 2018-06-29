@@ -16,7 +16,14 @@
         width: 100%;
         height: auto;
     }
-
+    .navbar-toggler {
+        border: none;
+        outline: none;
+     }
+     
+     button:focus {
+         outline: none;
+     }
     .news-title {
         font-size: 1rem;
         padding-bottom: 1rem;

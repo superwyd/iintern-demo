@@ -58,10 +58,14 @@ html,body {
 }
 
 .contact-all-mini {
-    display: block;
+    display: none;
     float: right;
     clear: right;
     border-bottom: 0.5px solid #9b9b9b;
+}
+
+#contact-mobile {
+    display: block;
 }
 
 .contact-mini-icon {
@@ -125,6 +129,14 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
     height: 80%;
 }
 
+.navbar-toggler {
+   border: none;
+   outline: none;
+}
+
+button:focus {
+    outline: none;
+}
 
 #intro {
     position: relative;
@@ -344,11 +356,23 @@ html,body {
     visibility: visible;
 }
 
+.navbar-toggler {
+    border: none;
+    outline: none;
+ }
+ 
+ button:focus {
+     outline: none;
+ }
 .contact-all-mini {
     display: block;
     float: right;
     clear: right;
     border-bottom: 0.5px solid #9b9b9b;
+}
+
+#contact-mobile {
+    display: none;
 }
 
 .contact-mini-icon {
@@ -636,7 +660,9 @@ html,body {
     clear: right;
     border-bottom: 0.5px solid #9b9b9b;
 }
-
+#contact-mobile {
+    display: none;
+}
 .contact-mini-icon {
     color: #707B85;
     margin: 18px;    
@@ -922,7 +948,9 @@ html,body {
     clear: right;
     border-bottom: 0.5px solid #9b9b9b;
 }
-
+#contact-mobile {
+    display: none;
+}
 .contact-mini-icon {
     color: #707B85;
     margin: 18px;    
