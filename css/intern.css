@@ -112,7 +112,7 @@
         text-align: center;
         padding: 8rem 0;
     }
-    #apply-form {
+    .apply-form {
         padding: 3rem;
         background-color: #fff;
     }
@@ -180,7 +180,7 @@
         text-align: center;
         padding: 8rem 0;
     }
-    #apply-form {
+    .apply-form {
         padding: 6rem 8rem;
         background-color: #fff;
     }
@@ -248,7 +248,7 @@
         text-align: center;
         padding: 8rem 0;
     }
-    #apply-form {
+    .apply-form {
         padding: 6rem 8rem;
         background-color: #fff;
     }
