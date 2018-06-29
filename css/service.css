@@ -61,21 +61,25 @@
     }
 
     .handbook-subheader {
-        font-size: 1.8rem;
+        font-size: 1rem;
         font-weight: 600;
         color: #DD6B6B;
     }
 
     .handbook-content {
-        font-size: 1rem;
+        font-size: 0.8rem;
         color: #898989;
-        padding-right: 4rem;
+        padding-right: 1rem;
         padding-top: 1rem;
     }
 
     #service-container {
-        margin: auto 6rem;
-    }               
+        margin: auto 1rem;
+    }
+    
+    #v-pills-tab {
+        padding-bottom: 2rem;
+    }
     }
     
     /* Tablet Layout: 768px. */

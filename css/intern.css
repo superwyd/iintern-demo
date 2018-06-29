@@ -76,7 +76,11 @@
     .special {
         border: 1px solid #898989;
         border-radius: 5px;
-    }      
+    }
+    .company-whydetail-real {
+        text-align: left;
+        color: #37495B;
+    }    
     }
     
     /* Tablet Layout: 768px. */
