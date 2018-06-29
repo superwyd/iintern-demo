@@ -242,6 +242,7 @@ button:focus {
 
 .feedback-profile {
     display: inline;
+    border-radius: 50%;
 }
 
 .feedback-name {
@@ -538,6 +539,8 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 .feedback-profile {
     display: inline;
+    border-radius: 50%;
+    
 }
 
 .feedback-name {
@@ -826,6 +829,8 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 .feedback-profile {
     display: inline;
+    border-radius: 50%;
+    
 }
 
 .feedback-name {
@@ -1112,6 +1117,8 @@ input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:foc
 
 .feedback-profile {
     display: inline;
+    border-radius: 50%;
+    
 }
 
 .feedback-name {
