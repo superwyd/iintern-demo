@@ -5,61 +5,182 @@
     
     /* Mobile Layout: 320px. */
     @media only screen and (max-width: 767px) { 
-      
+    /* -----------------NEWS---------------- */
+
+    .news-container {
+        margin: auto;
+        width: 90%;
+    }
+
+    .news-profile {
+        width: 100%;
+        height: auto;
+    }
+
+    .news-title {
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .news-preview {
+        color: #898989;
+        padding-bottom: 4rem;
+        font-size: 0.8rem;  
+    }
+
+    .news-smtitle {
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .news-smpreview {
+        color: #898989;
+        font-size: 0.8rem;
+        padding-bottom: 2rem;
+    }
+
+    .news-hover a {
+        outline: none;
+        text-decoration: none;
+    }
+    .news-hover:hover {
+        background-color: #F7F7F7;
+        text-decoration: none;
+    }      
     }
     
     /* Tablet Layout: 768px. */
     @media only screen and (min-width: 768px) and (max-width: 991px) { 
-      
+    /* -----------------NEWS---------------- */
+
+    .news-container {
+        margin: auto;
+        width: 90%;
+    }
+
+    .news-profile {
+        width: 100%;
+        height: auto;
+    }
+
+    .news-title {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .news-preview {
+        color: #898989;
+        padding-bottom: 4rem;    
+    }
+
+    .news-smtitle {
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .news-smpreview {
+        color: #898989;
+        font-size: 0.8rem;
+        padding-bottom: 2rem;
+    }
+
+    .news-hover a {
+        outline: none;
+        text-decoration: none;
+    }
+    .news-hover:hover {
+        background-color: #F7F7F7;
+        text-decoration: none;
+    }      
     }
     
     /* Medium Layout: 1280px. */
     @media only screen and (min-width: 992px) and (max-width: 1200px) { 
-    
+    /* -----------------NEWS---------------- */
+
+    .news-container {
+        margin: auto;
+        width: 90%;
+    }
+
+    .news-profile {
+        width: 100%;
+        height: auto;
+    }
+
+    .news-title {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .news-preview {
+        color: #898989;
+        padding-bottom: 4rem;    
+    }
+
+    .news-smtitle {
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .news-smpreview {
+        color: #898989;
+        font-size: 0.8rem;
+        padding-bottom: 2rem;
+    }
+
+    .news-hover a {
+        outline: none;
+        text-decoration: none;
+    }
+    .news-hover:hover {
+        background-color: #F7F7F7;
+        text-decoration: none;
+    }    
     }
     
     /* Max Layout */
     @media only screen and (min-width: 1201px) { 
 
-/* -----------------NEWS---------------- */
+    /* -----------------NEWS---------------- */
 
-.news-container {
-    margin: auto;
-    width: 90%;
-}
+    .news-container {
+        margin: auto;
+        width: 90%;
+    }
 
-.news-profile {
-    width: 100%;
-    height: auto;
-}
+    .news-profile {
+        width: 100%;
+        height: auto;
+    }
 
-.news-title {
-    font-size: 2rem;
-    padding-bottom: 1rem;
-}
+    .news-title {
+        font-size: 2rem;
+        padding-bottom: 1rem;
+    }
 
-.news-preview {
-    color: #898989;
-    padding-bottom: 4rem;    
-}
+    .news-preview {
+        color: #898989;
+        padding-bottom: 4rem;    
+    }
 
-.news-smtitle {
-    font-size: 1rem;
-    padding-bottom: 1rem;
-}
+    .news-smtitle {
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
 
-.news-smpreview {
-    color: #898989;
-    font-size: 0.8rem;
-    padding-bottom: 2rem;
-}
+    .news-smpreview {
+        color: #898989;
+        font-size: 0.8rem;
+        padding-bottom: 2rem;
+    }
 
-.news-hover a {
-    outline: none;
-    text-decoration: none;
-}
-.news-hover:hover {
-    background-color: #F7F7F7;
-    text-decoration: none;
-}
+    .news-hover a {
+        outline: none;
+        text-decoration: none;
+    }
+    .news-hover:hover {
+        background-color: #F7F7F7;
+        text-decoration: none;
+    }
     }

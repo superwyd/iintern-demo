@@ -8,7 +8,7 @@
                     /* ---------- company --------------- */
                     .header {
                         margin-top: 4rem auto;
-                        padding: 10rem 4rem 2rem 4rem;
+                        padding: 8rem 2rem 2rem 2rem;
                         text-align: center;
                     }
             
@@ -16,19 +16,22 @@
                         font-size: 2rem;
                         font-weight: 600;
                     }
-            
+                    .header-img {
+                        padding: 4rem 0 2rem 0;
+                        text-align: center;            
+                    }
                     .header-sub {
-                        font-size: 1rem;
-                        width: 60%;
-                        margin: 4rem auto;
+                        font-size: 0.8rem;
+                        width: 80%;
+                        margin: 2rem auto;
                         color: #707B85;
                     }
             
                     .company-why {
-                        padding: 0 0 2rem 4rem;
-                        font-size: 1.8rem;
+                        padding: 0;
+                        font-size: 1.2rem;
                         color: #000;
-                        font-weight: 700;
+                        font-weight: 600;
                         text-align: center;
                     }
             
@@ -40,12 +43,12 @@
                     .company-whytitle {
                         padding: 4rem 0.8rem 1rem 0.8rem;
                         color: #DD6B6B;
-                        font-size: 1.3rem;
+                        font-size: 1rem;
                     }
             
                     .company-whydetail {
                         color:#707B85;
-                        font-size: 1rem;
+                        font-size: 0.8rem;
                         padding: 0 0.8rem;
                     }
             
@@ -60,21 +63,26 @@
             
                     #company-title1 {
                         color: #DD6B6B;
-                        font-size: 2rem;
+                        font-size: 1.5rem;
                         padding-bottom: 0.8rem;
+                        padding-top: 3rem;
+                        text-align: center;
                     }
             
                     #company-title2 {
                         color: #707B85;
                         font-family: "Avenir Next";
                         font-style: italic;
-                        font-size: 2rem;
+                        font-size: 1.5rem;
+                        text-align: center;
                     }
             
                     .hr-profile {
-                        width: 80%;
-                        height: 80%;
-                        padding: 2rem;
+                        width: 40%;
+                        height: 40%;
+                        padding: 2rem 1rem;
+                        text-align: center;
+                        margin: auto;
                     }
             
                     .hr-name, .hr-title, .hr-feedback {
@@ -83,11 +91,11 @@
                     }
             
                     .fb-title {
-                        padding: 10rem 0;
+                        padding: 2rem 0;
                     }
             
                     .fb-detail {
-                        padding: 10rem 0;
+                        padding: 2rem 0;
                     }
             
             
@@ -102,7 +110,7 @@
             
                     .company-btn {
                         background-color: #37495B;
-                        margin: 5rem 0;
+                        margin: 3rem 0;
                         border-color: #37495B;
                         padding: 0.4rem 1.8rem;
                     }
@@ -140,16 +148,16 @@
                     }
             
                     .modal-body {
-                        padding: 4rem;
+                        padding: 1rem;
                     }
             
                     #company-submit {
                         margin: 4rem auto;
-                        width: 50%;
+                        width: 80%;
                     }
             
                     .form-title {
-                        font-size: 1.5rem;
+                        font-size: 1rem;
                         color: #DD6B6B;
                         font-weight: 500;
                         padding-top: 1rem;
@@ -162,7 +170,7 @@
             
                     .form-check-inline {
                         margin-top: 1rem;
-                        font-size: 1.2rem;
+                        font-size: 0.8rem;
                         color: #37495B;
                     }
             
@@ -180,7 +188,10 @@
                 padding: 10rem 4rem 2rem 4rem;
                 text-align: center;
             }
-    
+            .header-img {
+                padding: 4rem 0 2rem 0;
+                text-align: center;            
+            }
             .header-title {
                 font-size: 2rem;
                 font-weight: 600;
@@ -188,7 +199,7 @@
     
             .header-sub {
                 font-size: 1rem;
-                width: 60%;
+                width: 75%;
                 margin: 4rem auto;
                 color: #707B85;
             }
@@ -207,15 +218,15 @@
     
     
             .company-whytitle {
-                padding: 4rem 0.8rem 1rem 0.8rem;
+                padding: 2rem 0rem 1rem 0rem;
                 color: #DD6B6B;
-                font-size: 1.3rem;
+                font-size: 1rem;
             }
     
             .company-whydetail {
                 color:#707B85;
-                font-size: 1rem;
-                padding: 0 0.8rem;
+                font-size: 0.7rem;
+                padding: 0;
             }
     
             #company-detail {
@@ -252,11 +263,11 @@
             }
     
             .fb-title {
-                padding: 10rem 0;
+                padding: 7rem 0;
             }
     
             .fb-detail {
-                padding: 10rem 0;
+                padding: 7rem 0;
             }
     
     
@@ -309,12 +320,12 @@
             }
     
             .modal-body {
-                padding: 4rem;
+                padding: 2rem;
             }
     
             #company-submit {
                 margin: 4rem auto;
-                width: 50%;
+                width: 70%;
             }
     
             .form-title {
@@ -349,7 +360,10 @@
             padding: 10rem 4rem 2rem 4rem;
             text-align: center;
         }
-
+        .header-img {
+            padding: 4rem 0 2rem 0;
+            text-align: center;            
+        }
         .header-title {
             font-size: 2rem;
             font-weight: 600;
@@ -383,7 +397,7 @@
 
         .company-whydetail {
             color:#707B85;
-            font-size: 1rem;
+            font-size: 0.8rem;
             padding: 0 0.8rem;
         }
 
@@ -478,7 +492,7 @@
         }
 
         .modal-body {
-            padding: 4rem;
+            padding: 2rem;
         }
 
         #company-submit {
@@ -523,7 +537,10 @@
     font-size: 2rem;
     font-weight: 600;
 }
-
+.header-img {
+    padding: 4rem 0rem 2rem 0rem;
+    text-align: center;            
+}
 .header-sub {
     font-size: 1rem;
     width: 60%;

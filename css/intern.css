@@ -5,83 +5,273 @@
     
     /* Mobile Layout: 320px. */
     @media only screen and (max-width: 767px) { 
-      
+    /* ----------------INTERN--------------- */
+    .intern-company {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .center-header {
+        font-size: 1rem;
+        padding: 1rem 0;
+    }
+
+    .intern-company-hire {
+        padding: 1rem;
+    }
+
+    #intern-guide, #intern-past {
+        margin: auto;
+        text-align: center;
+        width: 70%;
+    }
+
+    #apply-container {
+        margin: auto;
+    }
+    #apply-img {
+        background-color: #37495B;
+        margin: 0 auto;
+        text-align: center;
+        padding: 8rem 0;
+        display: none;
+    }
+    #apply-form {
+        padding: 3rem 4rem;
+        background-color: #fff;
+    }
+    .row {
+        margin: auto 0;
+    }
+    .form-control {
+        border: none;
+        border-bottom: 1px solid #000000;
+        box-shadow: none;
+        border-radius: 0;
+        font-size: 0.8rem;
+    }
+
+    #apply-title {
+        font-size: 1.4rem;
+        padding: 2rem 0;
+    }
+
+    #apply-subtitle {
+        color: #898989;
+        font-weight: 400;
+    }
+
+    .form-control:focus {
+        box-shadow: none;
+    }
+
+    .special {
+        border: 1px solid #898989;
+        border-radius: 5px;
+    }      
     }
     
     /* Tablet Layout: 768px. */
     @media only screen and (min-width: 768px) and (max-width: 991px) { 
-      
+    /* ----------------INTERN--------------- */
+    .intern-company {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .center-header {
+        font-size: 1.5rem;
+        padding: 2rem 0;
+    }
+
+    .intern-company-hire {
+        padding: 1rem;
+    }
+
+    #intern-guide, #intern-past {
+        margin: auto;
+        text-align: center;
+        width: 70%;
+    }
+
+    #apply-container {
+        margin: auto;
+    }
+    #apply-img {
+        background-color: #37495B;
+        margin: 0 auto;
+        text-align: center;
+        padding: 8rem 0;
+    }
+    #apply-form {
+        padding: 3rem;
+        background-color: #fff;
+    }
+    .row {
+        margin: auto 0;
+    }
+    .form-control {
+        border: none;
+        border-bottom: 1px solid #000000;
+        box-shadow: none;
+        border-radius: 0;
+        font-size: 1rem;
+    }
+
+    #apply-title {
+        font-size: 1.6rem;
+        padding: 2rem 0;
+    }
+
+    #apply-subtitle {
+        color: #898989;
+        font-weight: 400;
+    }
+
+    .form-control:focus {
+        box-shadow: none;
+    }
+
+    .special {
+        border: 1px solid #898989;
+        border-radius: 5px;
+    }      
     }
     
     /* Medium Layout: 1280px. */
     @media only screen and (min-width: 992px) and (max-width: 1200px) { 
-    
+    /* ----------------INTERN--------------- */
+    .intern-company {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .center-header {
+        font-size: 1.5rem;
+        padding: 2rem 0;
+    }
+
+    .intern-company-hire {
+        padding: 1rem;
+    }
+
+    #intern-guide, #intern-past {
+        margin: auto;
+        text-align: center;
+        width: 70%;
+    }
+
+    #apply-container {
+        margin: auto;
+    }
+    #apply-img {
+        background-color: #37495B;
+        margin: 0 auto;
+        text-align: center;
+        padding: 8rem 0;
+    }
+    #apply-form {
+        padding: 6rem 8rem;
+        background-color: #fff;
+    }
+    .row {
+        margin: auto 0;
+    }
+    .form-control {
+        border: none;
+        border-bottom: 1px solid #000000;
+        box-shadow: none;
+        border-radius: 0;
+        font-size: 1rem;
+    }
+
+    #apply-title {
+        font-size: 1.6rem;
+        padding: 2rem 0;
+    }
+
+    #apply-subtitle {
+        color: #898989;
+        font-weight: 400;
+    }
+
+    .form-control:focus {
+        box-shadow: none;
+    }
+
+    .special {
+        border: 1px solid #898989;
+        border-radius: 5px;
+    }   
     }
     
     /* Max Layout */
     @media only screen and (min-width: 1201px) { 
-/* ----------------INTERN--------------- */
-.intern-company {
-    width: 70%;
-    margin: auto;
-    text-align: center;
-}
+    /* ----------------INTERN--------------- */
+    .intern-company {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
 
-.center-header {
-    font-size: 1.5rem;
-    padding: 6rem 0;
-}
+    .center-header {
+        font-size: 1.5rem;
+        padding: 2rem 0;
+    }
 
-.intern-company-hire {
-    padding: 0 2rem 2rem 2rem;
-}
+    .intern-company-hire {
+        padding: 0 2rem 2rem 2rem;
+    }
 
-#intern-guide, #intern-past {
-    margin: auto;
-    text-align: center;
-    width: 70%;
-}
+    #intern-guide, #intern-past {
+        margin: auto;
+        text-align: center;
+        width: 70%;
+    }
 
-#apply-container {
-    margin: auto;
-}
-#apply-img {
-    background-color: #37495B;
-    margin: 0 auto;
-    text-align: center;
-    padding: 8rem 0;
-}
-#apply-form {
-    padding: 6rem 8rem;
-    background-color: #fff;
-}
-.row {
-    margin: auto 0;
-}
-.form-control {
-    border: none;
-    border-bottom: 1px solid #000000;
-    box-shadow: none;
-    border-radius: 0;
-    font-size: 1rem;
-}
+    #apply-container {
+        margin: auto;
+    }
+    #apply-img {
+        background-color: #37495B;
+        margin: 0 auto;
+        text-align: center;
+        padding: 8rem 0;
+    }
+    #apply-form {
+        padding: 6rem 8rem;
+        background-color: #fff;
+    }
+    .row {
+        margin: auto 0;
+    }
+    .form-control {
+        border: none;
+        border-bottom: 1px solid #000000;
+        box-shadow: none;
+        border-radius: 0;
+        font-size: 1rem;
+    }
 
-#apply-title {
-    font-size: 1.6rem;
-    padding: 2rem 0;
-}
+    #apply-title {
+        font-size: 1.6rem;
+        padding: 2rem 0;
+    }
 
-#apply-subtitle {
-    color: #898989;
-    font-weight: 400;
-}
+    #apply-subtitle {
+        color: #898989;
+        font-weight: 400;
+    }
 
-.form-control:focus {
-    box-shadow: none;
-}
+    .form-control:focus {
+        box-shadow: none;
+    }
 
-.special {
-    border: 1px solid #898989;
-    border-radius: 5px;
-}
+    .special {
+        border: 1px solid #898989;
+        border-radius: 5px;
+    }
     }
