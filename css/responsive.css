@@ -92,7 +92,9 @@ html,body {
 #contact-mobile:hover {
     background-color: #fff;
 }
-
+#wechat-platform {
+    display: block;    
+}
 #contact-mini-weixin {
     display: block;
     border-radius: 0.8em;
