@@ -148,6 +148,10 @@
     .special {
         border: 1px solid #898989;
         border-radius: 5px;
+    } 
+    .company-whydetail-real {
+        text-align: left;
+        color: #37495B;
     }      
     }
     
@@ -216,6 +220,10 @@
     .special {
         border: 1px solid #898989;
         border-radius: 5px;
+    } 
+    .company-whydetail-real {
+        text-align: left;
+        color: #37495B;
     }   
     }
     
@@ -285,4 +293,8 @@
         border: 1px solid #898989;
         border-radius: 5px;
     }
+    .company-whydetail-real {
+        text-align: left;
+        color: #37495B;
+    } 
     }
