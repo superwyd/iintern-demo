@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
         crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css"/>    
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"></script>
     <script src="js/main.js"></script>
     <link href="css/responsive.css" rel="stylesheet">
     <link href="css/case.css" rel="stylesheet">
@@ -27,22 +29,6 @@
     <link href="css/intern.css" rel="stylesheet">
     <link href="css/news.css" rel="stylesheet">
     <link href="css/service.css" rel="stylesheet">
-    <script>
-        var $form = $('form#test-form'),
-        url = 'https://script.google.com/macros/s/AKfycbyp7JeHnm_Jh5J2dqZkbigouJPBjHPeBBqsAFKyKMqYI157kFGM/exec'
-
-        $('#submit-form').on('click', function(e) {
-            e.preventDefault();
-            var jqxhr = $.ajax({
-                url: url,
-                method: "GET",
-                dataType: "json",
-                data: $form.serializeObject()
-            }).success(
-                consle.log('hahaha')
-            );
-        })
-        </script>
 
     <!--[if lt IE 9]>
         <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -192,19 +178,21 @@
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <form class="company-inmail-contact" action="" id="test-form">
+                                <form class="company-inmail-contact" role="form" id="test-form">
                                     <div class="form-group">
                                         <label class="form-title" for="form-s1-email">联系邮箱</label>
-                                        <input name="document-email" type="email" class="form-control special" id="form-s1-email" aria-describedby="emailHelp" placeholder="请留下您的电子邮箱"
+                                        <input name="documentEmail" type="email" class="form-control special" id="form-s1-email" aria-describedby="emailHelp" placeholder="请留下您的电子邮箱"
                                             required>
                                         <div class="invalid-feedback">请留下您的电子邮箱。</div>
                                         <small id="emailHelp" class="form-text text-muted">我们会尽快和您取得联系.</small>
                                     </div>
                                     <div class="form-group">
                                         <label class="form-title" for="form-s1-detail">您的留言</label>
-                                        <textarea name="document-comment" class="form-control special" id="form-s1-detail" rows="4" placeholder="请介绍您的基本情况（学校、专业、需求等），我们会为您匹配最合适的顾问导师。"></textarea>
+                                        <textarea name="documentComment" class="form-control special" id="form-s1-detail" rows="4" placeholder="请介绍您的基本情况（学校、专业、需求等），我们会为您匹配最合适的顾问导师。"></textarea>
                                     </div>
-                                    <button type="submit" class="btn btn-primary company-btn" id="submit-form">发送信息</button>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary company-btn" id="submit-form">发送信息</button>                                        
+                                    </div>
                                 </form>
                             </div>
                         </div>
@@ -331,3 +319,10 @@
           </div>
           <p class="footer-note">Copyright © 2017-2018 I-intern, LLC. All rights reserved.</p>
       </div>
+      </body>
+
+      <footer>
+        <script src="validation-functions.js"></script>
+        </footer>
+
+        </html>
