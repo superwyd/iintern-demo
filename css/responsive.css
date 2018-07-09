@@ -62,7 +62,7 @@ html,body {
     display: none;
     float: right;
     clear: right;
-    border-bottom: 0.5px solid #9b9b9b;
+    /* border-bottom: 0.5px solid #9b9b9b; */
 }
 
 
@@ -383,7 +383,7 @@ html,body {
     display: block;
     float: right;
     clear: right;
-    border-bottom: 0.5px solid #9b9b9b;
+    /* border-bottom: 0.5px solid #9b9b9b; */
 }
 
 #contact-mobile {
@@ -675,7 +675,7 @@ html,body {
     display: block;
     float: right;
     clear: right;
-    border-bottom: 0.5px solid #9b9b9b;
+    /* border-bottom: 0.5px solid #9b9b9b; */
 }
 #contact-mobile {
     display: none;
@@ -965,7 +965,7 @@ html,body {
     display: block;
     float: right;
     clear: right;
-    border-bottom: 0.5px solid #9b9b9b;
+    /* border-bottom: 0.5px solid #9b9b9b; */
 }
 #contact-mobile {
     display: none;
