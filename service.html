@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
         crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css"/>    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css" />
     <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"></script>
     <script src="js/main.js"></script>
     <link href="css/responsive.css" rel="stylesheet">
@@ -82,46 +82,52 @@
     </nav>
     <div class="contact-all">
         <div class="contact-all-mini">
-            <img src="./image/coupon.png"/>
+            <img src="./image/coupon.png" />
             <i class="far fa-money-bill-alt contact-mini-icon"></i>
-        </div> 
-      <div class="contact-all-mini">
-        <img src="./image/teng.png"/>
-        <i class="fab fa-weixin contact-mini-icon"></i>
-      </div>            
-      <div class="contact-all-mini" id="phone-dely">
-        <i class="fas fa-phone contact-mini-icon"></i>
-        <span id="delysia">咨询电话：<br>+1 (617) 319-7132</span>
-      </div>
-      <div class="contact-all-mini" id="contact-mobile" data-toggle="modal" data-target="#contact-mobile-form">
-        <i class="fas fa-comments contact-mini-icon"></i>
-      </div>
-                          <div class="modal fade" id="contact-mobile-form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                      <div class="modal-content">
-                          <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">联系求职顾问</h5>
-                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                  <span aria-hidden="true">&times;</span>
-                              </button>
-                          </div>
-                          <div class="apply-form">
-                            <h3 id="apply-title">从这里，<br>开启你的实习定制之旅</h3>
-                            <p id="apply-subtitle">请填写精确完整的信息，<br>便于我们的求职顾问联系到你</p><br>
-                            <form class="form-center">
+        </div>
+        <div class="contact-all-mini">
+            <img src="./image/teng.png" />
+            <i class="fab fa-weixin contact-mini-icon"></i>
+        </div>
+        <div class="contact-all-mini" id="phone-dely">
+            <i class="fas fa-phone contact-mini-icon"></i>
+            <span id="delysia">咨询电话：
+                <br>+1 (617) 319-7132</span>
+        </div>
+        <div class="contact-all-mini" id="contact-mobile" data-toggle="modal" data-target="#contact-mobile-form">
+            <i class="fas fa-comments contact-mini-icon"></i>
+        </div>
+        <div class="modal fade" id="contact-mobile-form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">联系求职顾问</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="apply-form">
+                        <h3 id="apply-title">从这里，
+                            <br>开启你的实习定制之旅</h3>
+                        <p id="apply-subtitle">请填写精确完整的信息，
+                            <br>便于我们的求职顾问联系到你</p>
+                        <br>
+                        <form class="form-center">
                             <input class="form-control" placeholder="姓名">
                             <input class="form-control" placeholder="邮箱">
-                            <input class="form-control" placeholder="微信"> 
-                            <input class="form-control" placeholder="院校"> 
-                            <input class="form-control" placeholder="专业"> 
+                            <input class="form-control" placeholder="微信">
+                            <input class="form-control" placeholder="院校">
+                            <input class="form-control" placeholder="专业">
                             <input class="form-control" placeholder="备注">
                             <button type="submit" class="btn btn-primary mb-2 company-btn">提交表格</button>
-                            </form> 
-                          </div>
-                      </div>
-                  </div>
-              </div>
-      <div class="contact-all-mini" id="backtop"><i class="fas fa-arrow-up contact-mini-icon"></i></div>            
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact-all-mini" id="backtop">
+            <i class="fas fa-arrow-up contact-mini-icon"></i>
+        </div>
     </div>
     <div id="service-book">
         <br>
@@ -178,7 +184,7 @@
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <form class="company-inmail-contact" role="form" id="test-form">
+                                <form class="company-inmail-contact test-form" role="form">
                                     <div class="form-group">
                                         <label class="form-title" for="form-s1-email">联系邮箱</label>
                                         <input name="documentEmail" type="email" class="form-control special" id="form-s1-email" aria-describedby="emailHelp" placeholder="请留下您的电子邮箱"
@@ -191,7 +197,7 @@
                                         <textarea name="documentComment" class="form-control special" id="form-s1-detail" rows="4" placeholder="请介绍您的基本情况（学校、专业、需求等），我们会为您匹配最合适的顾问导师。"></textarea>
                                     </div>
                                     <div class="form-group">
-                                        <button type="submit" class="btn btn-primary company-btn" id="submit-form">发送信息</button>                                        
+                                        <button type="submit" class="btn btn-primary company-btn submit-form">发送信息</button>
                                     </div>
                                 </form>
                             </div>
@@ -214,19 +220,21 @@
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <form class="company-inmail-contact" action="">
+                                <form class="company-inmail-contact test-form">
                                     <div class="form-group">
                                         <label class="form-title" for="form-s1-email">联系邮箱</label>
-                                        <input type="email" class="form-control special" id="form-s1-email" aria-describedby="emailHelp" placeholder="请留下您的电子邮箱"
+                                        <input name="interviewEmail" type="email" class="form-control special" id="form-s1-email" aria-describedby="emailHelp" placeholder="请留下您的电子邮箱"
                                             required>
                                         <div class="invalid-feedback">请留下您的电子邮箱。</div>
                                         <small id="emailHelp" class="form-text text-muted">我们会尽快和您取得联系.</small>
                                     </div>
                                     <div class="form-group">
                                         <label class="form-title" for="exampleFormControlTextarea1">您的留言</label>
-                                        <textarea class="form-control special" id="exampleFormControlTextarea1" rows="4" placeholder="请介绍您的基本情况（学校、专业、需求等），我们会为您匹配最合适的顾问导师。"></textarea>
+                                        <textarea name="interviewComment" class="form-control special" id="exampleFormControlTextarea1" rows="4" placeholder="请介绍您的基本情况（学校、专业、需求等），我们会为您匹配最合适的顾问导师。"></textarea>
                                     </div>
-                                    <button type="submit" class="btn btn-primary company-btn">发送信息</button>
+                                    <div class="form-group">
+                                        <button type="submit" class="btn btn-primary company-btn submit-form">发送信息</button>                                        
+                                    </div>
                                 </form>
                             </div>
                         </div>
@@ -248,19 +256,19 @@
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <form class="company-inmail-contact" action="">
+                                <form class="company-inmail-contact test-form">
                                     <div class="form-group">
                                         <label class="form-title" for="form-s1-email">联系邮箱</label>
-                                        <input type="email" class="form-control special" id="form-s1-email" aria-describedby="emailHelp" placeholder="请留下您的电子邮箱"
+                                        <input name="jobEmail" type="email" class="form-control special" id="form-s1-email" aria-describedby="emailHelp" placeholder="请留下您的电子邮箱"
                                             required>
                                         <div class="invalid-feedback">请留下您的电子邮箱。</div>
                                         <small id="emailHelp" class="form-text text-muted">我们会尽快和您取得联系.</small>
                                     </div>
                                     <div class="form-group">
                                         <label class="form-title" for="exampleFormControlTextarea1">您的留言</label>
-                                        <textarea class="form-control special" id="exampleFormControlTextarea1" rows="4" placeholder="请介绍您的基本情况（学校、专业、需求等），我们会为您匹配最合适的顾问导师。"></textarea>
+                                        <textarea name="jobComment" class="form-control special" id="exampleFormControlTextarea1" rows="4" placeholder="请介绍您的基本情况（学校、专业、需求等），我们会为您匹配最合适的顾问导师。"></textarea>
                                     </div>
-                                    <button type="submit" class="btn btn-primary company-btn">发送信息</button>
+                                    <button type="submit" class="btn btn-primary company-btn submit-form">发送信息</button>
                                 </form>
                             </div>
                         </div>
@@ -309,20 +317,32 @@
     </div>
 
     <div class="footer">
-        <img width="15%" height="auto" src="./image/logo.png"><br><br>
+        <img width="15%" height="auto" src="./image/logo.png">
+        <br>
+        <br>
         <div class="footer-socialmedia">
-          <a href="mailto:info@iintern.com"><img class="social-icon" src="./image/msg.png"></a>
-          <a href="https://weibo.com/iinterncareer"><img class="social-icon" src="./image/weibo.png"></a>
-          <a href="https://www.zhihu.com/people/i-internzhi-ye-zi-xun-ping-tai/activities"><img class="social-icon" src="./image/zhihu.png"></a>
-          <a href="https://www.instagram.com/iinterncareer/"><img class="social-icon" src="./image/ins.png"></a>
-          <a href="http://mp.weixin.qq.com/s?__biz=MzUwOTI3MTYxMQ==&mid=100000522&idx=1&sn=4bd2bfe54ef44417da7f3fd968061752&chksm=7915885e4e620148e09588f3ee5ff165818f0be9cfae9dc644a454e622e81bdda6458f5889a9#rd"><img class="social-icon" src="./image/wechat.png"></a>
-          </div>
-          <p class="footer-note">Copyright © 2017-2018 I-intern, LLC. All rights reserved.</p>
-      </div>
-      </body>
+            <a href="mailto:info@iintern.com">
+                <img class="social-icon" src="./image/msg.png">
+            </a>
+            <a href="https://weibo.com/iinterncareer">
+                <img class="social-icon" src="./image/weibo.png">
+            </a>
+            <a href="https://www.zhihu.com/people/i-internzhi-ye-zi-xun-ping-tai/activities">
+                <img class="social-icon" src="./image/zhihu.png">
+            </a>
+            <a href="https://www.instagram.com/iinterncareer/">
+                <img class="social-icon" src="./image/ins.png">
+            </a>
+            <a href="http://mp.weixin.qq.com/s?__biz=MzUwOTI3MTYxMQ==&mid=100000522&idx=1&sn=4bd2bfe54ef44417da7f3fd968061752&chksm=7915885e4e620148e09588f3ee5ff165818f0be9cfae9dc644a454e622e81bdda6458f5889a9#rd">
+                <img class="social-icon" src="./image/wechat.png">
+            </a>
+        </div>
+        <p class="footer-note">Copyright © 2017-2018 I-intern, LLC. All rights reserved.</p>
+    </div>
+</body>
 
-      <footer>
-        <script src="validation-functions.js"></script>
-        </footer>
+<footer>
+    <script src="./js/validation-functions.js"></script>
+</footer>
 
-        </html>
+</html>
