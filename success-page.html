@@ -1,37 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <title>Post to Google Sheet Demo</title>
-  <!-- bootstrap & fontawesome css -->
-  <link href="https://cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet"/>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.1.0/css/font-awesome.min.css" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <!-- BootstrapValidator CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css"/>
+    <title>I-internCareer | 定制实习</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
 
-  <!-- jQuery and Bootstrap JS -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/1.11.1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css" />
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"></script>
+<script src="js/main.js"></script>
+<link href="css/responsive.css" rel="stylesheet">
+<link href="css/case.css" rel="stylesheet">
+<link href="css/company.css" rel="stylesheet">
+<link href="css/contact.css" rel="stylesheet">
+<link href="css/intern.css" rel="stylesheet">
+<link href="css/news.css" rel="stylesheet">
+<link href="css/service.css" rel="stylesheet">
 
-  <!-- BootstrapValidator JS -->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"></script>
+
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+        <style>
+        .container {
+          margin: 8rem auto;
+          text-align: center;
+        }
+        </style>
 </head>
-<body>
-</head>
 
 <body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="./image/logo.png" width="120" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-md-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">首页</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./service.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        产品服务
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="./service.html">产品服务手册</a>
+                        <a class="dropdown-item" href="./service.html#service-background">职前背景提升</a>
+                        <a class="dropdown-item" href="./service.html#service-intern">名企实习直推</a>
+                        <a class="dropdown-item" href="./service.html#service-summer">暑期游学实习</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./news.html">实习资讯</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="./intern.html">定制实习</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./company.html">企业入口</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./case.html">学员故事</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">联系我们</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
   <div class="container">
-  <div class="row">
-    <div class="col-lg-12">
-      <h2>Success</h2>
-      <p>
-      Thanks for submitting the form
-      <p>
+<img width="60%" height="auto" src="./image/success-ph.png" alt=""><br>
+<a href="./index.html"><button class="btn btn-primary company-btn">返回首页</button></a>
     </div>
-  </div>
-  <hr>
-
+    <div class="footer">
+        <img width="15%" height="auto" src="./image/logo.png">
+        <br>
+        <br>
+        <div class="footer-socialmedia">
+            <a href="mailto:info@iintern.com">
+                <img class="social-icon" src="./image/msg.png">
+            </a>
+            <a href="https://weibo.com/iinterncareer">
+                <img class="social-icon" src="./image/weibo.png">
+            </a>
+            <a href="https://www.zhihu.com/people/i-internzhi-ye-zi-xun-ping-tai/activities">
+                <img class="social-icon" src="./image/zhihu.png">
+            </a>
+            <a href="https://www.instagram.com/iinterncareer/">
+                <img class="social-icon" src="./image/ins.png">
+            </a>
+            <a href="http://mp.weixin.qq.com/s?__biz=MzUwOTI3MTYxMQ==&mid=100000522&idx=1&sn=4bd2bfe54ef44417da7f3fd968061752&chksm=7915885e4e620148e09588f3ee5ff165818f0be9cfae9dc644a454e622e81bdda6458f5889a9#rd">
+                <img class="social-icon" src="./image/wechat.png">
+            </a>
+        </div>
+        <p class="footer-note">Copyright © 2017-2018 I-intern, LLC. All rights reserved.</p>
+    </div>
 </body>
 
 <footer>
