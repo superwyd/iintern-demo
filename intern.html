@@ -113,14 +113,14 @@
                         <p id="apply-subtitle">请填写精确完整的信息，
                             <br>便于我们的求职顾问联系到你</p>
                         <br>
-                        <form class="form-center">
-                            <input name="applyName" class="form-control" placeholder="姓名">
-                            <input name="applyEmail" class="form-control" placeholder="邮箱">
-                            <input name="applyWechat" class="form-control" placeholder="微信">
-                            <input name="applySchool" class="form-control" placeholder="院校">
-                            <input name="applyMajor" class="form-control" placeholder="专业">
-                            <input name="applyNote" class="form-control" placeholder="备注">
-                            <button type="submit" class="btn btn-primary mb-2 company-btn">提交表格</button>
+                        <form class="form-center mobile-apply">
+                            <input name="mobileName" class="form-control" placeholder="姓名">
+                            <input name="mobileEmail" class="form-control" placeholder="邮箱">
+                            <input name="mobileWechat" class="form-control" placeholder="微信">
+                            <input name="mobileSchool" class="form-control" placeholder="院校">
+                            <input name="mobileMajor" class="form-control" placeholder="专业">
+                            <input name="mobileNote" class="form-control" placeholder="备注">
+                            <button type="submit" class="btn btn-primary mb-2 company-btn mobile-submit">提交表格</button>
                         </form>
                     </div>
                 </div>
@@ -207,7 +207,7 @@
                     <p id="apply-subtitle">请填写精确完整的信息，
                         <br>便于我们的求职顾问联系到你</p>
                     <br>
-                    <form id="class-center" class="apply-intern-form">
+                    <form id="class-center" class="form-center apply-intern-form">
                         <input name="applyName" class="form-control" placeholder="姓名">
                         <input name="applyEmail" class="form-control" placeholder="邮箱">
                         <input name="applyWechat" class="form-control" placeholder="微信">
@@ -247,6 +247,7 @@
 
 </body>
 <footer>
+    <script src="./js/mobile-intern-validation.js"></script> 
     <script src="./js/intern-validation.js"></script>
 </footer>
 </html>
